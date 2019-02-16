@@ -38,20 +38,20 @@
 		position: absolute;
 		display: block;
 		top: 50%;
-		width: 60px;
-		height: 60px;
-    border-bottom: 1px solid #454545;
+		width: 30px;
+		height: 30px;
+    border-bottom: 4px solid #454545;
 		transition: all 200ms ease;
 		z-index: 12;
 	}
 	.slider__arrow--pre{
-		border-left: 1px solid #454545;
+		border-left: 4px solid #454545;
 		left: 35px;
     transform: translateY(-50%) rotate(45deg);
 	}
 	.slider__arrow--next{
 		right: 35px;
-		border-right: 1px solid #454545;
+		border-right: 4px solid #454545;
     transform: translateY(-50%) rotate(-45deg);
 	}
 	.slider__arrow:hover{

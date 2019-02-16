@@ -133,9 +133,17 @@
 }
 
 .popup-form-wrapper--min{
-	width: 420px;
-	height: 375px;
+	width: unset;
+	height: unset;
+	box-sizing: content-box;
+	padding: 0;
 	.popup-form__item{
 		width: 100%;
+	}
+	.main-form{
+		padding: 25px;
+		textarea{
+			height: 100px;
+		}
 	}
 }

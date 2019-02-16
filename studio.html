@@ -252,14 +252,14 @@
 						<div class="hover-image">
 							<i class="fas fa-search-plus hover-image__icon"></i>
 						</div>
-						<span class="equipment__item-text">Машина для обмётки швов</span>
+						<span class="equipment__item-text" id="more-revievs">Машина для обмётки швов</span>
 					</div>
 				</a>
 			</div>
 		</div>
-	</section>
+	</section >
 
-	<section class="slider-block wow fadeIn">
+	<section class="slider-block wow fadeIn" >
 		<div class="wrapper">
 			<div class="slider-block__text">
 				<h2 class="h2-title">Отзывы</h2>	
@@ -441,9 +441,46 @@
 	<div class="popup-bg d-none"></div>
 
 	<div class="popup-form-wrapper popup-form-wrapper--min d-none animated fadeIn">
-		<h5 class="h5-title form-title">Обратная связь</h5>
+		<!-- <h5 class="h5-title form-title">Обратная связь</h5> -->
 		<i class="fas fa-times popup-form-exit"></i>
-		<form action="/" class="popup-form">
+					<form action="/" class="main-form">
+				<h3 class="main-form__title">Напишите нам:</h3>
+				<div class="main-form__item-wrapper">
+					<input type="text" placeholder="Имя">
+					<span>*</span>
+				</div>
+				<div class="main-form__item-wrapper">
+					<input type="text" placeholder="E-mail">
+					<span>*</span>
+				</div>
+				<div class="main-form__item-wrapper">
+					<input type="tel" placeholder="+1 (234) 567 89 99">
+					<span>*</span>
+				</div>
+				<div class="main-form__item-wrapper">
+					<textarea placeholder="Сообщение"></textarea>
+					<span class="span-text-area-mod">*</span>
+				</div>
+				<div class="main-form__item-wrapper main-form__item-wrapper--file-mod">
+					<input type="file" id="file">
+					<label for="file">
+						<i class="fas fa-file file-icon"></i>
+						Прикрепить файл
+					</label>
+				</div>
+				<p class="main-form__checkbox-wrapper">
+					<label for="main-checkbox">
+						<input type="checkbox" id="main-checkbox">
+						Я согласен на обработку <a href="privacy_policy.html">персональных данных</a> и с условиями <a href="user_agreement.html">пользовательского соглашения</a>
+					</label>	
+				</p>
+				<p class="form-last-text">
+					<span>*</span>
+					Обязательные поля
+				</p>
+				<button class="btn" type="submit">Отправить</button>
+			</form>
+<!-- 		<form action="/" class="popup-form">
 			<p class="popup-form__item">
 				<input type="text" required="" placeholder="E-mail">
 			</p>
@@ -454,7 +491,7 @@
 				<textarea id="textarea-popup" placeholder="Ваше сообщение"></textarea>
 			</p>
 			<button type="submit" class="btn popup-form__btn">Отправить</button>
-		</form>
+		</form> -->
 	</div>
 
 	<!-- // fix bag popup -->

@@ -288,10 +288,11 @@
   font-size: 16px !important;
   line-height: 18px !important;
   margin-bottom: 50px !important;
-  margin-top: 40px !important; }
+  margin-top: 40px !important;
+  transition: all 200ms ease; }
 
 .red--btn:hover {
-  background-color: #353535 !important; }
+  transition: all 200ms ease; }
 
 .block-content__list h4 {
   margin: 0;
@@ -482,14 +483,16 @@
     font-weight: 300; }
 
 .footer {
-  background-color: #fff;
-  height: 80px;
+  background-color: #DDD;
   display: flex;
   align-items: center; }
   .footer .wrapper {
     display: flex;
     justify-content: space-between;
-    align-items: center; }
+    align-items: center;
+    box-sizing: content-box;
+    padding-top: 50px;
+    padding-bottom: 50px; }
   .footer ul {
     padding: 0;
     margin: 0;
@@ -505,8 +508,7 @@
   .footer div {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap; }
+    align-items: center; }
     .footer div span {
       text-align: center;
       display: block;
@@ -514,12 +516,14 @@
   .footer .soc {
     justify-content: space-between; }
   .footer .card-wrapper {
-    width: 200px;
+    width: 280px;
     display: flex;
     justify-content: space-between; }
     .footer .card-wrapper img {
       width: 48px;
       height: 48px; }
+  .footer .card-block {
+    width: 380px; }
 
 .mfp-ready .mfp-figure {
   opacity: 0; }
@@ -1434,10 +1438,16 @@ tr {
     background-color: #67da93; }
 
 .popup-form-wrapper--min {
-  width: 420px;
-  height: 375px; }
+  width: unset;
+  height: unset;
+  box-sizing: content-box;
+  padding: 0; }
   .popup-form-wrapper--min .popup-form__item {
     width: 100%; }
+  .popup-form-wrapper--min .main-form {
+    padding: 25px; }
+    .popup-form-wrapper--min .main-form textarea {
+      height: 100px; }
 
 .portfolio-title .h2-title {
   text-align: center; }
@@ -1895,18 +1905,18 @@ tr {
     position: absolute;
     display: block;
     top: 50%;
-    width: 60px;
-    height: 60px;
-    border-bottom: 1px solid #454545;
+    width: 30px;
+    height: 30px;
+    border-bottom: 4px solid #454545;
     transition: all 200ms ease;
     z-index: 12; }
   .slider .slider__arrow--pre {
-    border-left: 1px solid #454545;
+    border-left: 4px solid #454545;
     left: 35px;
     transform: translateY(-50%) rotate(45deg); }
   .slider .slider__arrow--next {
     right: 35px;
-    border-right: 1px solid #454545;
+    border-right: 4px solid #454545;
     transform: translateY(-50%) rotate(-45deg); }
   .slider .slider__arrow:hover {
     transition: all 200ms ease;

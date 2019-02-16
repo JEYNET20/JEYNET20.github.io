@@ -1,12 +1,15 @@
 .footer{
-	background-color: #fff;
-	height: 80px;
+	background-color: #DDD;
+	// height: 80px;
 	display: flex;
 	align-items: center;
 	.wrapper{
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		box-sizing: content-box;
+		padding-top: 50px;
+		padding-bottom: 50px;
 	}
 	ul{
 		padding: 0;
@@ -28,7 +31,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		flex-wrap: wrap;
+		// flex-wrap: wrap;
 		span{
 			text-align: center;
 			display: block;
@@ -39,7 +42,7 @@
 		justify-content: space-between;
 	}
 	.card-wrapper{
-		width: 200px;
+		width: 280px;
 		display: flex;
 		justify-content: space-between;
 		
@@ -47,5 +50,8 @@
 			width: 48px;
 			height: 48px;
 		}
+	}
+	.card-block{
+		width: 380px;
 	}
 }

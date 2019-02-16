@@ -235,9 +235,10 @@
 	line-height: 18px !important;
 	margin-bottom: 50px !important;
 	margin-top: 40px !important;
+	transition: all 200ms ease;
 }
 .red--btn:hover{
-	background-color: #353535 !important;
+	transition: all 200ms ease;
 }
 
 .block-content__list{
