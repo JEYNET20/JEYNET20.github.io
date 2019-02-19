@@ -1,0 +1,44 @@
+.equipment{
+	background-color: #f2f2f2;
+	box-sizing: border-box;
+	padding-bottom: 40px;
+	.wrapper{
+		width: 970px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.h2-title{
+		width: 100%;
+		text-align: center;
+	}
+	.text-for-title{
+		text-align: center;
+		margin-bottom: 45px;
+	}
+	&__item{
+		position: relative;
+		margin-bottom: 40px;
+	}
+	&__item-wrapper{
+		width: 304px;
+		height: 240px;
+    overflow: hidden;
+		img{
+		}
+	}
+	&__item-text{
+		display: block;
+		width: 100%;
+		background-color: #1a1a1a;
+		color: #fff;
+		height: 36px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: -5px;
+		font-size: 14px;
+		font-weight: 300;
+	}
+}
