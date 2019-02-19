@@ -12,6 +12,10 @@
 .portfolio-block__item {
   margin-bottom: 0; }
 
+object {
+  width: 100%;
+  height: 100%; }
+
 @media screen and (max-width: 1169px) {
   .header {
     background-color: #fff; }
