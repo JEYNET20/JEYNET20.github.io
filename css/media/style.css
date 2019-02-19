@@ -979,8 +979,7 @@ object {
   .price-paralax {
     background-image: url("../../img/mobile-paralax/5.jpg"); }
   .table-block {
-    background-image: url("../../img/mobile-paralax/6.jpg");
-    background-size: cover; } }
+    background-image: url("../../img/mobile-paralax/6.jpg"); } }
 
 @media screen and (max-width: 419px) {
   .header .container {
