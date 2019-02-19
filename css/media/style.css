@@ -965,6 +965,23 @@ object {
   .block-2 {
     top: 60px; } }
 
+@media screen and (max-height: 559px) {
+  .paralax--image1 {
+    background-image: url("../../img/mobile-paralax/1.jpg"); }
+  .paralax--image2 {
+    background-image: url("../../img/mobile-paralax/2.jpg"); }
+  .paralax--image3 {
+    background-image: url("../../img/mobile-paralax/3.jpg"); }
+  .paralax--image4 {
+    background-image: url("../../img/mobile-paralax/4.jpg"); }
+  .paralax--image5 {
+    background-image: url("../../img/mobile-paralax/5.jpg"); }
+  .price-paralax {
+    background-image: url("../../img/mobile-paralax/5.jpg"); }
+  .table-block {
+    background-image: url("../../img/mobile-paralax/6.jpg");
+    background-size: cover; } }
+
 @media screen and (max-width: 419px) {
   .header .container {
     width: 370px; }
@@ -1314,7 +1331,9 @@ object {
     font-size: 32px; }
   .footer .wrapper {
     width: 320px;
-    box-sizing: border-box; } }
+    box-sizing: border-box; }
+  .wrapper-service-icon {
+    height: 140px; } }
 
 @media screen and (max-width: 359px) {
   .equipment .wrapper {
