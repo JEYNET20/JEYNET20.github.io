@@ -105,7 +105,9 @@ object {
     height: 100%; }
   .footer .wrapper {
     width: 960px;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  .slider-block__slider .slider__item img {
+    top: 0; } }
 
 @media screen and (max-width: 1169px) {
   .about-studio {
@@ -957,7 +959,9 @@ object {
 
 @media screen and (max-width: 559px) {
   .paralax__block .wrapper {
-    width: 420px; } }
+    width: 420px; }
+  .b2b-paralax .block-content__list {
+    margin-top: 25px; } }
 
 @media screen and (max-width: 559px) {
   .popup-form-wrapper {
@@ -1295,7 +1299,9 @@ object {
   .contacts-content .wrapper {
     width: 360px; }
   .main-form-wrapper .wrapper {
-    width: 360px; } }
+    width: 360px; }
+  .contacts-content__item span {
+    font-size: 12px; } }
 
 @media screen and (max-width: 369px) {
   .user_agreement .wrapper {
