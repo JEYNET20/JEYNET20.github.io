@@ -480,7 +480,9 @@ object {
   .scroll-menu .contacts a {
     font-size: 14px; }
   .scroll-menu .main-nav {
-    padding: 0; } }
+    padding: 0; }
+  .main-menu {
+    left: 0; } }
 
 @media screen and (max-width: 767px) {
   .header .container {
@@ -933,7 +935,9 @@ object {
   .main-form-wrapper .wrapper {
     width: 420px; }
   .contacts-content__item span {
-    font-size: 14px; } }
+    font-size: 14px; }
+  .main-form .btn {
+    margin: 0 auto; } }
 
 @media screen and (max-width: 559px) {
   .user_agreement .wrapper {
@@ -980,6 +984,26 @@ object {
     background-image: url("../../img/mobile-paralax/5.jpg"); }
   .table-block {
     background-image: url("../../img/mobile-paralax/6.jpg"); } }
+
+@media screen and (max-width: 559px) {
+  .slider__item {
+    width: 100%;
+    height: 100%; }
+  .slider__text-block {
+    width: 100% !important;
+    height: 100%; }
+  .slider__text-block p {
+    padding: 5px;
+    margin: 0;
+    width: 100%;
+    height: 100%; }
+  .slider__text-block em {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400; }
+  .slider-block__slider .slider__item img {
+    top: unset;
+    height: 100%; } }
 
 @media screen and (max-width: 419px) {
   .header .container {
@@ -1191,7 +1215,11 @@ object {
   .header .container {
     width: 360px; }
   .scroll-menu .wrapper {
-    width: 360px; } }
+    width: 360px; }
+  .wrapper-service-icon img {
+    height: 100px; }
+  .service-block {
+    margin-top: 0; } }
 
 @media screen and (max-width: 369px) {
   .about-us {

@@ -71,7 +71,6 @@
 	.about-us{
 		width: 420px;
 	}
-
 	.service{
 		width: 420px;
 	}
@@ -93,6 +92,11 @@
 	.footer .wrapper{
 		width: 420px;
 	}
+	// .mobile-image{
+	// 	display: block !important;
+	//   width: auto;
+ //    height: auto;
+	// }
 }
 
 // Ателье 560 -420 
@@ -195,6 +199,9 @@
 	.contacts-content__item span{
 		font-size: 14px;
 	}
+	.main-form .btn{
+		margin: 0 auto;
+	}
 }
 
 // Пользовательское соглашение 560 -420 
@@ -247,7 +254,6 @@
 }
 
 // paralax 560 - 0
-
 @media screen and (max-height: 559px){ 
 	.paralax--image1{
 		background-image: url('../../img/mobile-paralax/1.jpg');
@@ -269,5 +275,32 @@
 	}
 	.table-block{
 		background-image: url('../../img/mobile-paralax/6.jpg');
+	}
+}
+
+// слайдер на всю ширину контейнера
+@media screen and (max-width: 559px){
+	.slider__item{
+		width: 100%;
+		height: 100%;
+	}
+	.slider__text-block{
+		width: 100% !important;
+		height: 100%;
+	}
+	.slider__text-block p{
+		padding: 5px;
+		margin: 0;
+		width: 100%;
+		height: 100%;
+	}
+	.slider__text-block em{
+		width: 100%;
+		font-size: 16px;
+		font-weight: 400;
+	}
+	.slider-block__slider .slider__item img{
+		top: unset;
+		height: 100%;
 	}
 }

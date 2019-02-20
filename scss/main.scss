@@ -425,3 +425,394 @@ object{
 	width: 100%;
 	height: 250px;
 }
+
+// fix image
+
+.item-image{
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: url('../../img/gallery/index-page/1.jpg');
+}
+
+// картинки на главной
+.our-work__item:nth-child(2)
+.item-image{
+  background-image: url('../../img/gallery/index-page/2.jpg');
+}
+.our-work__item:nth-child(3)
+.item-image{
+  background-image: url('../../img/gallery/index-page/3.jpg');
+}
+.our-work__item:nth-child(4)
+.item-image{
+  background-image: url('../../img/gallery/index-page/4.jpg');
+}
+.our-work__item:nth-child(5)
+.item-image{
+  background-image: url('../../img/gallery/index-page/5.jpg');
+}
+.our-work__item:nth-child(6)
+.item-image{
+  background-image: url('../../img/gallery/index-page/6.jpg');
+}
+.our-work__item:nth-child(7)
+.item-image{
+  background-image: url('../../img/gallery/index-page/7.jpg');
+}
+.our-work__item:nth-child(8)
+.item-image{
+  background-image: url('../../img/gallery/index-page/8.jpg');
+}
+.our-work__item img{
+	display: none;
+  width: auto;
+  height: auto;
+}
+
+
+// картинки на стр услуги в слайдере
+.slider img{
+	display: none;
+}
+
+.slider-1
+.slider__item:nth-child(1)
+.item-image{
+	background-image: url('../img/servisec-page/slider-image-1.jpg');
+}
+.slider-1
+.slider__item:nth-child(2)
+.item-image{
+	background-image: url('../img/servisec-page/slider-image-1.1.jpg');
+}
+
+.slider-2
+.slider__item:nth-child(1)
+.item-image{
+	background-image: url('../img/servisec-page/slider-image-2.jpg');
+}
+
+.slider-2
+.slider__item:nth-child(2)
+.item-image{
+	background-image: url('../img/servisec-page/slider-image-2.1.jpg');
+}
+
+.slider-3
+.slider__item:nth-child(1)
+.item-image{
+	background-image: url('../img/servisec-page/slider-image-3.jpg');
+}
+
+.slider-3
+.slider__item:nth-child(2)
+.item-image{
+	background-image: url('../img/servisec-page/slider-image-3.1.jpg');
+}
+
+.slider-4
+.slider__item:nth-child(1)
+.item-image{
+	background-image: url('../img/servisec-page/slider-image-4.2.jpg');
+}
+
+.slider-4
+.slider__item:nth-child(2)
+.item-image{
+	background-image: url('../img/servisec-page/slider-image-4.jpg');
+}
+
+.slider-4
+.slider__item:nth-child(3)
+.item-image{
+	background-image: url('../img/servisec-page/slider-image-4.1.jpg');
+}
+
+.slider-5
+.slider__item:nth-child(1)
+.item-image{
+	background-image: url('../img/servisec-page/slider-image-5.jpg');
+}
+
+.slider-5
+.slider__item:nth-child(2)
+.item-image{
+	background-image: url('../img/servisec-page/slider-image-5.1.jpg');
+}
+
+.slider-5
+.slider__item:nth-child(3)
+.item-image{
+	background-image: url('../img/servisec-page/slider-image-5.2.jpg');
+}
+
+.slider-6
+.slider__item:nth-child(1)
+.item-image{
+	background-image: url('../img/servisec-page/slider-image-6.jpg');
+}
+
+.slider-6
+.slider__item:nth-child(2)
+.item-image{
+	background-image: url('../img/servisec-page/slider-image-6.1.jpg');
+}
+
+.slider-7
+.slider__item:nth-child(1)
+.item-image{
+	background-image: url('../img/servisec-page/slider-image-7.jpg');
+}
+
+.slider-7
+.slider__item:nth-child(2)
+.item-image{
+	background-image: url('../img/servisec-page/slider-image-7.1.jpg');
+}
+
+
+// картинки в портфолио
+// картинки блок 1
+.gallery__item--fabrics:nth-child(1)
+.item-image{
+	background-image: url('../img/gallery/portfolio/fabrics/1.jpg');
+}
+.gallery__item--fabrics:nth-child(2)
+.item-image{
+	background-image: url('../img/gallery/portfolio/fabrics/2.jpg');
+}
+.gallery__item--fabrics:nth-child(3)
+.item-image{
+	background-image: url('../img/gallery/portfolio/fabrics/3.jpg');
+}
+.gallery__item--fabrics:nth-child(4)
+.item-image{
+	background-image: url('../img/gallery/portfolio/fabrics/4.jpg');
+}
+.gallery__item--fabrics:nth-child(5)
+.item-image{
+	background-image: url('../img/gallery/portfolio/fabrics/5.jpg');
+}
+.gallery__item--fabrics:nth-child(6)
+.item-image{
+	background-image: url('../img/gallery/portfolio/fabrics/6.jpg');
+}
+.gallery__item--fabrics:nth-child(7)
+.item-image{
+	background-image: url('../img/gallery/portfolio/fabrics/7.jpg');
+}
+.gallery__item--fabrics:nth-child(8)
+.item-image{
+	background-image: url('../img/gallery/portfolio/fabrics/8.jpg');
+}
+.gallery__item--fabrics:nth-child(9)
+.item-image{
+	background-image: url('../img/gallery/portfolio/fabrics/9.jpg');
+}
+.gallery__item--fabrics:nth-child(10)
+.item-image{
+	background-image: url('../img/gallery/portfolio/fabrics/10.jpg');
+}
+
+
+// картинки блок 2
+.gallery__item--jackets:nth-child(1)
+.item-image{
+	background-image: url('../img/gallery/portfolio/jeckets/1.jpg');
+}
+.gallery__item--jackets:nth-child(2)
+.item-image{
+	background-image: url('../img/gallery/portfolio/jeckets/2.jpg');
+}
+.gallery__item--jackets:nth-child(3)
+.item-image{
+	background-image: url('../img/gallery/portfolio/jeckets/3.jpg');
+}
+.gallery__item--jackets:nth-child(4)
+.item-image{
+	background-image: url('../img/gallery/portfolio/jeckets/4.jpg');
+}
+.gallery__item--jackets:nth-child(5)
+.item-image{
+	background-image: url('../img/gallery/portfolio/jeckets/5.jpg');
+}
+.gallery__item--jackets:nth-child(6)
+.item-image{
+	background-image: url('../img/gallery/portfolio/jeckets/6.jpg');
+}
+.gallery__item--jackets:nth-child(7)
+.item-image{
+	background-image: url('../img/gallery/portfolio/jeckets/7.jpg');
+}
+.gallery__item--jackets:nth-child(8)
+.item-image{
+	background-image: url('../img/gallery/portfolio/jeckets/8.jpg');
+}
+.gallery__item--jackets:nth-child(9)
+.item-image{
+	background-image: url('../img/gallery/portfolio/jeckets/9.jpg');
+}
+.gallery__item--jackets:nth-child(10)
+.item-image{
+	background-image: url('../img/gallery/portfolio/jeckets/10.jpg');
+}
+.gallery__item--jackets:nth-child(11)
+.item-image{
+	background-image: url('../img/gallery/portfolio/jeckets/11.jpg');
+}
+.gallery__item--jackets:nth-child(12)
+.item-image{
+	background-image: url('../img/gallery/portfolio/jeckets/12.jpg');
+}
+.gallery__item--jackets:nth-child(13)
+.item-image{
+	background-image: url('../img/gallery/portfolio/jeckets/13.jpg');
+}
+.gallery__item--jackets:nth-child(14)
+.item-image{
+	background-image: url('../img/gallery/portfolio/jeckets/14.jpg');
+}
+.gallery__item--jackets:nth-child(15)
+.item-image{
+	background-image: url('../img/gallery/portfolio/jeckets/15.jpg');
+}
+.gallery__item--jackets:nth-child(16)
+.item-image{
+	background-image: url('../img/gallery/portfolio/jeckets/16.jpg');
+}
+
+// картинки блок 3
+.gallery__item--jeans:nth-child(1)
+.item-image{
+	background-image: url('../img/gallery/portfolio/jeans/1.jpg');
+}
+.gallery__item--jeans:nth-child(2)
+.item-image{
+	background-image: url('../img/gallery/portfolio/jeans/2.jpg');
+}
+.gallery__item--jeans:nth-child(3)
+.item-image{
+	background-image: url('../img/gallery/portfolio/jeans/3.jpg');
+}
+.gallery__item--jeans:nth-child(4)
+.item-image{
+	background-image: url('../img/gallery/portfolio/jeans/4.jpg');
+}
+.gallery__item--jeans:nth-child(5)
+.item-image{
+	background-image: url('../img/gallery/portfolio/jeans/5.jpg');
+}
+.gallery__item--jeans:nth-child(6)
+.item-image{
+	background-image: url('../img/gallery/portfolio/jeans/6.jpg');
+}
+.gallery__item--jeans:nth-child(7)
+.item-image{
+	background-image: url('../img/gallery/portfolio/jeans/7.jpg');
+}
+.gallery__item--jeans:nth-child(8)
+.item-image{
+	background-image: url('../img/gallery/portfolio/jeans/8.jpg');
+}
+.gallery__item--jeans:nth-child(9)
+.item-image{
+	background-image: url('../img/gallery/portfolio/jeans/9.jpg');
+}
+.gallery__item--jeans:nth-child(10)
+.item-image{
+	background-image: url('../img/gallery/portfolio/jeans/10.jpg');
+}
+
+// картинки блок 4
+.gallery__item--leather:nth-child(1)
+.item-image{
+	background-image: url('../img/gallery/portfolio/leather/1.jpg');
+}
+.gallery__item--leather:nth-child(2)
+.item-image{
+	background-image: url('../img/gallery/portfolio/leather/2.jpg');
+}
+.gallery__item--leather:nth-child(3)
+.item-image{
+	background-image: url('../img/gallery/portfolio/leather/3.jpg');
+}
+.gallery__item--leather:nth-child(4)
+.item-image{
+	background-image: url('../img/gallery/portfolio/leather/4.jpg');
+}
+.gallery__item--leather:nth-child(5)
+.item-image{
+	background-image: url('../img/gallery/portfolio/leather/5.jpg');
+}
+.gallery__item--leather:nth-child(6)
+.item-image{
+	background-image: url('../img/gallery/portfolio/leather/6.jpg');
+}
+.gallery__item--leather:nth-child(7)
+.item-image{
+	background-image: url('../img/gallery/portfolio/leather/7.jpg');
+}
+.gallery__item--leather:nth-child(8)
+.item-image{
+	background-image: url('../img/gallery/portfolio/leather/8.jpg');
+}
+.gallery__item--leather:nth-child(9)
+.item-image{
+	background-image: url('../img/gallery/portfolio/leather/9.jpg');
+}
+.gallery__item--leather:nth-child(10)
+.item-image{
+	background-image: url('../img/gallery/portfolio/leather/10.jpg');
+}
+.gallery__item--leather:nth-child(11)
+.item-image{
+	background-image: url('../img/gallery/portfolio/leather/11.jpg');
+}
+.gallery__item--leather:nth-child(12)
+.item-image{
+	background-image: url('../img/gallery/portfolio/leather/12.jpg');
+}
+.gallery__item--leather:nth-child(13)
+.item-image{
+	background-image: url('../img/gallery/portfolio/leather/13.jpg');
+}
+.gallery__item--leather:nth-child(14)
+.item-image{
+	background-image: url('../img/gallery/portfolio/leather/14.jpg');
+}
+
+// картинки блок 5
+.gallery__item--fur:nth-child(1)
+.item-image{
+	background-image: url('../img/gallery/portfolio/fur/1.jpg');
+}
+.gallery__item--fur:nth-child(2)
+.item-image{
+	background-image: url('../img/gallery/portfolio/fur/2.jpg');
+}
+.gallery__item--fur:nth-child(3)
+.item-image{
+	background-image: url('../img/gallery/portfolio/fur/3.jpg');
+}
+.gallery__item--fur:nth-child(4)
+.item-image{
+	background-image: url('../img/gallery/portfolio/fur/4.jpg');
+}
+.gallery__item--fur:nth-child(5)
+.item-image{
+	background-image: url('../img/gallery/portfolio/fur/5.jpg');
+}
+.gallery__item--fur:nth-child(6)
+.item-image{
+	background-image: url('../img/gallery/portfolio/fur/6.jpg');
+}
+.gallery__item--fur:nth-child(7)
+.item-image{
+	background-image: url('../img/gallery/portfolio/fur/7.jpg');
+}
+.gallery__item--fur:nth-child(8)
+.item-image{
+	background-image: url('../img/gallery/portfolio/fur/8.jpg');
+}
