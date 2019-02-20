@@ -1,0 +1,78 @@
+.price-paralax{
+	background-image: url('../img/price-paralax.jpg');
+	min-height: unset;
+	.main-title{
+		margin-top: 50px;
+		margin-bottom: 80px;
+	}
+	.text-for-title{
+		font-weight: 700;
+		// text-align: center;
+		margin-bottom: 10px;
+	}
+	.h3-title{
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 105px;
+    margin-bottom: 50px;
+	}
+	&__list{
+		margin: 0;
+		padding: 0;
+		list-style-position: inside;
+	}
+	&__item{
+		font-size: 16px;
+        color: #454545;
+        font-weight: 300;
+        height: 35px;
+        box-sizing: border-box;
+        padding-top: 5px;
+        padding-bottom: 5px;
+		a{
+    	    color: #454545;
+    	    font-size: 16px;
+    	    line-height: 24px;
+    	    font-weight: 700;
+    	    text-decoration: none;
+    	    box-sizing: border-box;
+    	    padding-left: 20px;
+		}
+		a:hover{
+		transition: color 100ms ease;
+	    color: red;
+	    text-decoration: underline;
+	  }
+	}
+	h6{
+	  font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    margin: 5px 0 20px;
+    padding: 5px 0 5px 32px;
+    position: relative;
+    &::before{
+    	content: '';
+    	height: 100%;
+    	width: 1px;
+    	display: block;
+    	box-sizing: border-box;
+    	border-left: 1px solid #000;
+    	position: absolute;
+    	left: 0;
+    	top: 50%;
+    	transform: translateY(-50%);
+    }
+  }
+  h4{
+  	font-size: 20px;
+    line-height: 26px;
+    font-weight: 300;
+    margin: 10px 0;
+    font-style: italic;
+    margin-bottom: 36px;
+  }
+}
+

@@ -1,0 +1,36 @@
+.header{
+	.logo{
+		width: 150px;
+		height: 96px;
+	}
+	width: 100%;
+	background-color: #fff;
+	&__info{
+		width: 100%;
+		min-height: 56px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+.scroll-menu{
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 15;
+	background-color: #f5f5f5;
+	.main-nav{
+		height: 75px;
+	}
+	.logo-link{
+		opacity: 0;
+	}
+	.main-menu__item a{
+		border-bottom: 1px solid #f5f5f5;
+	}
+	.main-menu__item--activ{
+		border-bottom: 1px solid #000;
+	}
+}
