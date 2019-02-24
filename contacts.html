@@ -15,6 +15,17 @@
 		}
 	</style>
 
+	<!-- // удаляем яндекс мапу на телефонах -->
+	<script>
+    window.onload = function(){
+    if(window.innerWidth >= 560)
+	    document.querySelector('.map-wrapper--1').innerHTML = '<object data="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=190661181115" width="1140" height="250"></object>';
+	    document.querySelector('.map-wrapper--2').innerHTML = '<object data="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=1404099168" width="1140" height="250"></object>';
+	    document.querySelector('.map-wrapper--3').innerHTML = '<object data="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=221692980045" width="1140" height="250"></object>';
+	    document.querySelector('.map-wrapper--4').innerHTML = '<object data="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=144804787364" width="1140" height="250"></object>';
+    };
+	</script>	
+
 	<!-- style -->
 	<link rel="stylesheet" href="css/style.min.css">
 	<link rel="stylesheet" href="css/media/style.min.css">
@@ -144,8 +155,7 @@
 						<span>Пн-Вс 10.00-20.00, без перерыва, м.Белорусская кольцевая</span>
 					</li>
 				</ul>
-				<div class="map-wrapper wow fadeIn" data-wow-delay="0.4s">
-					<object data="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=190661181115" width="1140" height="250"></object>
+				<div class="map-wrapper map-wrapper--1 wow fadeIn" data-wow-delay="0.4s">
 				</div>
 			</div>
 			<div class="contacts-content__item-wrapper">
@@ -168,8 +178,7 @@
 						<span>Пн-Пт 10-21, Сб-Вс 10-20, без перерыва, м.Фонвизинская, м.ВДНХ, м.Владыкино</span>
 					</li>
 				</ul>
-				<div class="map-wrapper wow fadeIn" data-wow-delay="0.4s">
-					<object data="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=1404099168" width="1140" height="250"></object>
+				<div class="map-wrapper map-wrapper--2 wow fadeIn" data-wow-delay="0.4s">
 				</div>
 			</div>
 			<div class="contacts-content__item-wrapper">
@@ -192,8 +201,7 @@
 						<span>Пн-Вс круглосуточно, консультация технолога 9-20ч, м.Войковская, ст.Коптево МЦК</span>
 					</li>
 				</ul>
-				<div class="map-wrapper wow fadeIn" data-wow-delay="0.4s">
-					<object data="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=221692980045" width="1140" height="250"></object>
+				<div class="map-wrapper map-wrapper--3 wow fadeIn" data-wow-delay="0.4s">
 				</div>
 			</div>
 			<div class="contacts-content__item-wrapper">
@@ -216,8 +224,7 @@
 						<span>Пн-Вс круглосуточно, консультация технолога 9-20ч; м.Сходненская</span>
 					</li>
 				</ul>
-				<div class="map-wrapper wow fadeIn" data-wow-delay="0.4s">
-					<object data="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=144804787364" width="1140" height="250"></object>
+				<div class="map-wrapper map-wrapper--4 wow fadeIn" data-wow-delay="0.4s">
 				</div>
 			</div>
 		</div>

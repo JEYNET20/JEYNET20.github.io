@@ -15,7 +15,15 @@
 			display: none !important;
 		}
 	</style>
-	
+
+	<!-- // удаляем яндекс мапу на телефонах -->
+	<script>
+    window.onload = function(){
+    if(window.innerWidth >= 560)
+	    document.querySelector('.divisions__right').innerHTML = '<object data="https://yandex.ru/map-widget/v1/?um=constructor%3A0f64154f6754f8e12cf2a252b9f3a2bef4713872365fb9cc5f7f0c2d92df5a46&amp;source=constructor"></object>';
+    };
+	</script>
+
 	<!-- style -->
 	<link rel="stylesheet" href="css/style.min.css">
 	<link rel="stylesheet" href="css/media/style.min.css">
