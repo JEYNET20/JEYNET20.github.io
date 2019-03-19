@@ -1,0 +1,169 @@
+
+.header .main-menu__item a:hover{
+	color: #fea441 !important;
+	transition: all 200ms ease;
+}
+
+.header .contacts a:hover{
+	color: #fff;
+	transition: all 200ms ease;
+}
+
+.header__btn{
+	transition: all 300ms ease;
+}
+.header__btn:hover{
+	cursor: pointer;
+  background-color: #22b14c;
+	transition: all 300ms ease;
+}
+.header__arrow-down{
+  transition: all .3s ease;
+}
+.header__arrow-down:hover{
+	transform: translateX(-50%) scale(1.2);
+	transition: all .3s ease;
+	// font-size: 48px;
+	cursor: pointer;
+}
+
+.type__item .btn{
+  transition: all .3s ease;
+  cursor: pointer;
+}
+.type__item .btn:hover{
+  transition: all .3s ease;
+  background-color: #116bfe;
+}
+
+.price__item-btn{
+  transition: all .3s ease;
+  cursor: pointer;
+}
+.price__item-btn:hover{
+  transition: all .3s ease;
+  background-color: #22b14c;
+}
+
+.calculator .sum-btn{
+	cursor: pointer;
+  transition: all .3s ease;
+  position: relative;
+  z-index: 2;
+}
+.calculator .sum-btn:hover{
+  transition: all .3s ease;
+  background-color: #116bfe;
+}
+
+.calculator .calculator__btn{
+	cursor: pointer;
+  transition: all .3s ease;
+}
+.calculator .calculator__btn:hover{
+  transition: all .3s ease;
+  background-color: #fea411;  
+}
+
+.block-8 .green-btn{
+  transition: all .3s ease;
+  cursor: pointer;
+}
+.block-8 .green-btn:hover{
+  transition: all .3s ease;
+  background-color: #fea411;  
+}
+
+.block-8 .block-8__btn{
+	cursor: pointer;
+  transition: all .3s ease;
+}
+.block-8 .block-8__btn:hover{
+  transition: all .3s ease;
+  color: #fea411;  
+}
+
+.block-9__btn{
+	cursor: pointer;
+  transition: all .3s ease;
+}
+.block-9__btn:hover{
+  transition: all .3s ease;
+  background-color: #116bfe;  
+}
+
+.form__btn{
+	cursor: pointer;
+  transition: all .3s ease;
+}
+.form__btn:hover{
+  transition: all .3s ease;
+  background-color: #116bfe;  
+}
+
+.galery__item{
+	cursor: pointer;
+}
+
+.block-14 button.block-14__btn{
+	cursor: pointer;
+  transition: all .3s ease;
+  background-color: #22b14c;
+}
+.block-14 button.block-14__btn:hover{
+	transition: all .3s ease;
+	background-color: #116bfe;
+}
+
+.block-15__title{
+	cursor: pointer;
+	transition: all .3s ease;
+	border: 1px solid #fff;
+	i{
+		color: #fea411;
+	}
+}
+.block-15__title:hover{
+	transition: all .3s ease;
+	border: 1px solid #fea411;
+}
+
+.footer a{
+	transition: all .3s ease;
+}
+.footer a:hover{
+	color: #fea411;
+	transition: all .3s ease;
+}
+
+.hover-item{
+	cursor: pointer;
+}
+
+.popup-form form button{
+	cursor: pointer;
+	transition: all .4s ease;
+}
+.popup-form form button:hover{
+  transition: all .4s ease;
+  background: #116bfe;
+}
+
+.popup-form i{
+	cursor: pointer;
+	transition: all .4s ease;
+}
+.popup-form i:hover{
+	transition: all .4s ease;
+	color: #116bfe;
+}
+
+.hover-item__btn{
+	cursor: pointer;
+}
+
+.hover-item__btn:hover{
+	border: 2px solid #116bfe !important;
+  transition: all .3s ease;
+	color: #116bfe !important;
+}

@@ -1,0 +1,72 @@
+@media screen and (max-width: 767px){
+	.wrapper{
+		width: 640px !important;
+	}
+	.block-8 .wrapper{
+		width: 640px !important;
+	}
+	.video-block__item{
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.h2-title{
+		font-size: 24px;
+	}
+	.calculator__sum-wrapper{
+		flex-wrap: wrap;
+		height: unset;
+	}
+	.calculator .sum-btn{
+		height: 60px;
+	}
+	.calculator .counter{
+		height: 60px;
+	}
+	.calculator .counter{
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+	// .calculator__timer{
+	// 	margin-top: 150px;
+	// }
+	// .calculator__btn-wrapper{
+	// 	margin-top: 125px;
+	// }
+	.block-8 .block-8__item:nth-child(3) img{
+		width: 100%;
+	}
+	.block-9__item{
+		width: 100% !important;
+		height: unset;
+	}
+	.block-8__text-block p{
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.block-10__text{
+		font-size: 20px;
+	}
+	.popup-galery-card{
+		width: 100%;
+	}
+	.block-15__item-left,
+	.block-15__item-right{
+		width: 100%;
+	}
+	.popup-galery-card .galery-card__left-content img{
+		width: 300px;
+		height: 300px;
+	}
+	.popup-galery-card .btn{
+		width: 300px;
+		margin-bottom: 15px;
+	}
+	.popup-galery-card .galery-card__type-item{
+		width: 65px;
+		height: 65px;
+		img{
+			width: 55px;
+			height: 55px;
+		}
+	}
+}
