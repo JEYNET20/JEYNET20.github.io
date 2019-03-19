@@ -1,0 +1,115 @@
+@media screen and (max-width: 1023px){
+	.wrapper{
+		width: 960px !important;
+	}
+	.block-8 .wrapper{
+		width: 960px !important;
+	}
+	.main-logo{
+		width: 100px;
+		height: 100px;
+	}
+	.header .contacts{
+		width: 140px;
+	}
+	.block-1__item{
+    width: 220px;
+    height: 200px;
+	}
+	.type__item{
+		width: 220px;
+		height: 300px;
+	}
+	.price__item-wrapper{
+		width: 300px;
+	}
+	.block-3__item{
+		width: 220px;
+	}
+	.block-3__item strong{
+		font-size: 50px;
+	}
+	.portfolio .portfolio__item{
+		width: 220px;
+		height: 300px;
+	}
+	.video-block__item{
+		width: 300px;
+	}
+	.block-8 .block-8__btn{
+		text-align: center;
+	}
+	.block-9__item{
+		width: 300px;
+	}
+	.col-xl-6{
+		width: 50% !important;
+	}
+	.col-xl-4{
+		width: 33.33333%;
+	}
+	.col-xl-3{
+		width: 25%;
+	}	
+	.block-9__item p{
+		font-size: 16px;
+	}
+	.block-9__btn-wrapper{
+		margin-top: 0;
+	}
+	.block-10 .h3-title{
+		margin: 30px;
+	}
+	.block-12__item{
+		width: 260px;
+		height: 260px;
+	}
+	.popup-galery-card{
+		width: 900px;
+	}
+	.popup-galery-card .galery-card__type-item{
+		width: 90px;
+		height: 90px;
+	}
+	.popup-galery-card .btn{
+		width: 200px;
+	}
+	.popup-galery-card h3{
+		font-size: 28px;
+	}
+	.block-15__item-left, .block-15__item-right{
+		width: 440px;
+	}
+	.block-15__title{
+		width: 420px;
+	}
+	.block-15__item{
+		width: 100%;
+	}
+	.block-15__content{
+		width: 400px;
+    position: relative;
+    top: -10px;
+    z-index: -1;
+    left: 50%;
+    transform: translateX(-50%);
+	}
+	.block-15__title h3{
+		font-size: 14px;
+	}
+	.footer__right-item{
+		font-size: 14px;
+	}
+	// .header .main-nav{
+	// 	width: 960px;
+	// }		
+	.portfolio .portfolio__item img{
+		height: 85%;
+	}	
+	.portfolio .portfolio__item p{
+		bottom: 12px;
+	}
+	.calculator__image-wrapper img{
+		object-fit: cover;
+	}
+}
