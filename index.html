@@ -1,0 +1,1669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ступеньки</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- style -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="css/media/style.min.css">
+
+  <style>
+		.portfolio .portfolio__item{
+			cursor: default;
+		}  
+		header{
+			background-image: url('image/header/fon.jpg');
+			background-position: center bottom;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 100vh;
+			position: relative;
+			box-sizing: border-box;
+			padding-top: 20vh;
+		}
+		.calculator__sum-wrapper
+		.btn{
+			background-color: #22b14c;
+		}
+		.block-15__title h3{
+			margin: 0 auto;
+			width: 80%;
+			font-size: 14px;
+			text-align: center;
+		}
+		.price__item-text{
+			color: #22b14c;
+		}
+		.price__item-btn{
+			background-color:#22b14c;
+		}
+		.price__item-btn:hover{
+			background-color: #fea411;	
+		}
+		.block-3{
+			margin-top: 50px;
+		}
+		.block-15__btn-wrapper{
+			width: 100%;
+			display: -webkit-flex;
+			display: -moz-flex;
+			display: -ms-flex;
+			display: -o-flex;
+			display: flex;
+			justify-content: center;
+			-ms-align-items: center;
+			align-items: center;
+			margin-bottom: 25px;
+		}
+		.block-15__btn-wrapper
+		.btn{
+			width: 320px;
+			background-color:#22b14c;
+			cursor: pointer;
+			transition: all 300ms ease;
+		}
+		.block-15__btn-wrapper
+		.btn:hover{
+			background-color: #fea411;	
+			transition: all 300ms ease;
+		}
+		.portfolio .portfolio__item{
+			cursor: default;
+		}
+		.type .h2-title{
+			color: #000;
+		}
+		.block-14 a{
+			display: -webkit-flex;
+			display: -moz-flex;
+			display: -ms-flex;
+			display: -o-flex;
+			display: flex !important;
+			justify-content: center;
+			-ms-align-items: center;
+			align-items: center;
+		}	
+		.galery .hover-item{
+			opacity: 1;
+		}
+		.galery .hover-item:hover{
+			background-color: unset;
+		}
+		.block-14 a{
+			opacity: 0 !important;
+			transition: all 300ms ease;
+		}
+		.galery .hover-item:hover a{
+			opacity: 1 !important;
+			transition: all 300ms ease;
+		}
+	</style>
+
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript" >
+     (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+     m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+     (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+     ym(47227377, "init", {
+          id:47227377,
+          clickmap:true,
+          trackLinks:true,
+          accurateTrackBounce:true,
+          webvisor:true
+     });
+  </script>
+  <noscript><div><img src="https://mc.yandex.ru/watch/47227377" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+  <!-- /Yandex.Metrika counter -->	
+
+ 
+	<script src="//st.yagla.ru/js/y.c.js?h=d1709fe8f17dc674430ddfe50472304b"></script>
+
+</head>
+<body id="id-page">
+
+	<!-- шапка -->
+	<header class="header">
+		<div class="wrapper">
+			<nav class="main-nav">
+				<a href="#" id="header-link">
+					<img class="main-logo" src="image/stupenki-logo.svg" alt="logo">
+				</a>
+				<ul class="main-menu">
+					<li class="main-menu__item" id="price-link"><a href="#">Комплектации<span class="sr-only">(current)</span></a></li>
+					<li class="main-menu__item" id="calc-link"><a href="#">Калькулятор</a></li>
+					<li class="main-menu__item" id="zamer-link"><a href="javascript://0">Замер</a></li>
+					<li class="main-menu__item" id="production-link"><a href="javascript://0">Производство</a></li>
+					<li class="main-menu__item" id="portfolio-link"><a href="javascript://0">Наши работы</a></li>
+					<li class="main-menu__item" id="contacts-link"><a href="javascript://0">Контакты</a></li>
+				</ul>
+				<p class="contacts">
+					<span>Позвоните нам</span>
+					<a href="#">8(900)473-37-33</a>
+					<span>C 9:00 до 20:00</span>
+				</p>
+			</nav>
+	
+			<nav class="mobile-nav">
+				<a href="#" id="mobile-header-link">
+					<img class="mobile-logo" src="image/stupenki-logo.svg" alt="logo">
+				</a>
+				<ul class="mobile-menu d-none animated fadeInDown">
+					<li><i class="fa fa-times-circle"></i></li>
+					<li class="mobile-menu__item" id="mobile-price-link"><a href="#" >Комплектации<span class="sr-only">(current)</span></a></li>
+					<li class="mobile-menu__item" id="mobile-calc-link"><a href="#">Калькулятор</a></li>
+					<li class="mobile-menu__item" id="mobile-zamer-link"><a href="#">Замер</a></li>
+					<li class="mobile-menu__item" id="mobile-production-link"><a href="#">Производство</a></li>
+					<li class="mobile-menu__item" id="mobile-portfolio-link"><a href="#">Наши работы</a></li>
+					<li class="mobile-menu__item" id="mobile-contacts-link"><a href="#">Контакты</a></li>
+				</ul>
+				<div class="mobile-icon">
+					<i class="fas fa-bars mobile-bars"></i>	
+					<a href="tel:+79004733733" onclick="ym(47227377, 'reachGoal', 'tel-click'); gtag('event', 'tel_click', {'event_category': 'tel', 'event_action': 'click'}); return true;">
+						<i class="fas fa-phone mobile-phone"></i>			
+					</a>
+				</div>				
+			</nav>
+
+			<h1 class="h1-title">Лестницы на металлокаркасе от производителя<br> изготовим за 3 дня под ключ без предоплаты</h1>
+			<h2 class="h2-title">Цены ниже рыночных на 30%. Не шумят при ходьбе. Безопасны для пожилых и детей. Монтаж за 1 день без сварки на объекте.</h2>
+			<button class="btn header__btn">Рассчитать в 3-х ценовых вариантах</button>
+			<img class="header__arrow-down" src="image/arrow_down.png" alt="arrow">
+		</div>
+	</header>
+
+	<!-- блок 1 ИЗГОТАВЛИВАЕМ ЛЕСТНИЦЫ ИЗ ЛИСТОВОГО МЕТАЛЛА ДЛЯ: -->
+	<section class="block-1">
+		<div class="wrapper">
+			<h2 class="h2-title">ИЗГОТАВЛИВАЕМ ЛЕСТНИЦЫ ИЗ ТОЛСТОГО ЛИСТОВОГО МЕТАЛЛА ДЛЯ:</h2>
+			<div class="block-1__item">
+				<img src="image/block-1/1.JPG" alt="item">
+				<span class="block-1__text">Домов из кирпича и блоков</span>
+			</div>
+			<div class="block-1__item">
+				<img src="image/block-1/2.JPG" alt="item">
+				<span class="block-1__text">Двухуровневых квартир</span>
+			</div>
+			<div class="block-1__item">
+				<img src="image/block-1/3.JPG" alt="item">
+				<span class="block-1__text">Деревянных/каркасных домов и бань</span>
+			</div>
+			<div class="block-1__item">
+				<img src="image/block-1/4.JPG" alt="item">
+				<span class="block-1__text">Офисов, кафе и ресторанов</span>
+			</div>
+		</div>
+	</section>
+	
+	<section class="block-3">
+		<div class="wrapper">
+			<h2 class="h2-title d-none">Блок 5</h2>
+			<div class="block-3__item">
+				<p>
+					<span class="block-3__item-text-3">лестница</span> <br>
+					
+					<span class="block-3__item-text-2">не заскрипит</span> <br>
+					<span class="block-3__item-text-3">никогда</span>
+					
+				</p>
+			</div>
+			<div class="block-3__item">
+				<p>
+				    <span class="block-3__item-text-3">безопасна для</span> <br>
+					
+					<span class="block-3__item-text-2">детей</span> <br>
+					<span class="block-3__item-text-3">и пожилых</span>
+				</p>
+			</div>
+			<div class="block-3__item">
+				<p>
+				    <span class="block-3__item-text-3">Не стучит как</span> <br>
+					
+					<span class="block-3__item-text-2">барабан</span> <br>
+					<span class="block-3__item-text-3">при ходьбе</span>
+				</p>
+			</div>
+			<div class="block-3__item">
+				<p>
+				    <span class="block-3__item-text-3">установка без</span> <br>
+					
+					<span class="block-3__item-text-2">сварки</span> <br>
+					<span class="block-3__item-text-3">и грязи</span>
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- type ТИПЫ ИЗГОТАВЛИВАЕМЫХ ЛЕСТНИЦ -->
+	<section class="type">
+		<div class="wrapper">
+			<h2 class="h2-title">ТИПЫ ИЗГОТАВЛИВАЕМЫХ ЛЕСТНИЦ</h2>
+			<div class="type__item">
+				<h3>Одномаршевые</h3>
+				<img src="image/type/1.jpg" alt="item">
+				<button class="btn type__item-1">Подробнее</button>
+			</div>
+			<div class="type__item">
+				<h3>Г-образные</h3>
+				<img src="image/type/2.jpg" alt="item">
+				<button class="btn type__item-2">Подробнее</button>
+			</div>
+			<div class="type__item">
+				<h3>П-образные</h3>
+				<img src="image/type/3.jpg" alt="item">
+				<button class="btn type__item-3">Подробнее</button>
+			</div>
+			<div class="type__item">
+				<h3>Забежные</h3>
+				<img src="image/type/4.jpg" alt="item">
+				<button class="btn type__item-4">Подробнее</button>
+			</div>
+		</div>
+	</section>
+	
+	<section class="block-3">
+		<div class="wrapper">
+			<h2 class="h2-title d-none">Блок 5</h2>
+			<div class="block-3__item">
+				<p>
+					<span class="block-3__item-text-3">каркас из толстой</span> <br>
+					
+					<span class="block-3__item-text-2">8-12 мм</span> <br>
+					<span class="block-3__item-text-3">листовой стали</span>
+					
+				</p>
+			</div>
+			<div class="block-3__item">
+				<p>
+				    <span class="block-3__item-text-3">погрешность</span> <br>
+					
+					<span class="block-3__item-text-2">до 2мм</span> <br>
+					<span class="block-3__item-text-3">готовой лестницы</span>
+				</p>
+			</div>
+			<div class="block-3__item">
+				<p>
+				    <span class="block-3__item-text-3">разработано</span> <br>
+					
+					<span class="block-3__item-text-2">100+</span> <br>
+					<span class="block-3__item-text-3">дизайнов каркаса</span>
+				</p>
+			</div>
+			<div class="block-3__item">
+				<p>
+				    <span class="block-3__item-text-3">изготовление комплектующих</span> <br>
+					
+					<span class="block-3__item-text-2"> на ЧПУ</span> <br>
+					<span class="block-3__item-text-3">станках</span>
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- price Комплектации и цены -->
+	<section class="price">
+		<div class="wrapper">
+			<h2 class="h2-title">Комплектации и цены</h2>
+			<div class="price__item-wrapper">
+				<div class="price__item">
+					<div class="price__item-image-wrapper">
+						<img src="image/price/1.png" alt="photo-1">
+					</div>
+					<h3 class="price__item-title">Металлокаркас</h3>
+					<p class="price__item-text">от 65 000 до 105 000 руб.</p>
+					<ul class="price__item-list">
+            <li>
+              <span>Проект</span>
+              <span>Индивидуальный</span>
+            </li>
+            <li>
+              <span>Каркас</span>
+              <span>6 дизайнов</span>                
+            </li>
+            <li>
+              <span>Материал</span>
+              <span>Листовая сталь</span>                
+            </li>
+            <li>
+              <span>Покраска</span>
+              <span>12 цветов</span>                
+            </li>
+            <li>
+              <span>Монтаж</span>
+              <span>Да</span>                
+            </li>
+            <li>
+              <span>Гарантия</span>
+              <span>60 мес.</span>                
+            </li>
+            <li>
+              <span>Срок службы</span>
+              <span>100 лет</span>                
+            </li>
+          </ul>
+          <button class="btn price__item-btn">Рассчитать по вашим размерам</button>
+				</div>
+			</div>
+			<div class="price__item-wrapper">
+				<div class="price__item">
+					<div class="price__item-image-wrapper">
+						<img src="image/price/3.png" alt="photo-1">
+					</div>
+					<h3 class="price__item-title">Стандарт</h3>
+					<p class="price__item-text">от 129 000 до 240 000 руб.</p>
+					<ul class="price__item-list">
+						<li>
+              <span>Проект</span>
+              <span>Инд-ый, 3D модель</span>
+            </li>
+            <li>
+              <span>Каркас</span>
+              <span>12 дизайнов</span>                
+            </li>
+            <li>
+              <span>Материал</span>
+              <span>Листовая сталь</span>                
+            </li>
+            <li>
+              <span>Покраска</span>
+              <span>56 цветов</span>                
+            </li>
+            <li>
+              <span>Ступени</span>
+              <span>Лиственница</span>                
+            </li>
+            <li>
+              <span>Ограждение</span>
+              <span>нерж. сталь</span>                
+            </li>                            
+            <li>
+              <span>Монтаж</span>
+              <span>Да</span>                
+            </li>
+            <li>
+              <span>Гарантия</span>
+              <span>60 + 12 мес.</span>                
+            </li>
+            <li>
+              <span>Срок службы</span>
+              <span>100 лет</span>                
+            </li>
+          </ul>
+          <button class="btn price__item-btn">Рассчитать по вашим размерам</button>
+				</div>
+			</div>
+			<div class="price__item-wrapper">
+				<div class="price__item">
+					<div class="price__item-image-wrapper">
+						<img src="image/price/2.png" alt="photo-1">
+					</div>
+					<h3 class="price__item-title">Престиж</h3>
+					<p class="price__item-text">от 245 000 до 380 000 руб.</p>
+					<ul class="price__item-list">
+            <li>
+              <span>Проект</span>
+              <span>Инд-ый, 3D в интерьере</span>
+            </li>
+            <li>
+              <span>Каркас</span>
+              <span>более 100 дизайнов</span>                
+            </li>
+            <li>
+              <span>Материал</span>
+              <span>Листовая сталь</span>                
+            </li>
+            <li>
+              <span>Покраска</span>
+              <span>212 цветов</span>                
+            </li>
+            <li>
+              <span>Ступени</span>
+              <span>Дуб\Ясень</span>                
+            </li>
+            <li>
+              <span>Ограждение</span>
+              <span>комбинированное</span>                
+            </li>              
+            <li>
+              <span>Монтаж</span>
+              <span>Да</span>                
+            </li>
+            <li>
+              <span>Гарантия</span>
+              <span>60 + 24 мес.</span>                
+            </li>
+            <li>
+              <span>Срок службы</span>
+              <span>100 лет</span>                
+            </li>
+          </ul>
+          <button class="btn price__item-btn">Рассчитать по вашим размерам</button>
+				</div>
+			</div>						
+		</div>
+	</section>
+
+	<!-- блок 3 -->
+	<section class="block-3">
+		<div class="wrapper">
+			<h2 class="h2-title d-none">Блок 5</h2>
+			<div class="block-3__item">
+				<p>
+					<span class="block-3__item-text-3">До</span>
+					<span class="block-3__item-text-2">5 лет</span> <br>
+					<span class="block-3__item-text-3">Гарантии</span>
+				</p>
+			</div>
+			<div class="block-3__item">
+				<p>
+				    <span class="block-3__item-text-3">изготовление каркаса </span> <br>
+					<span class="block-3__item-text-2">от 3 дней</span> <br>
+					
+					<span class="block-3__item-text-3">в цехе</span>
+				</p>
+			</div>
+			<div class="block-3__item">
+				<p>
+				    <span class="block-3__item-text-3">Выдерживают</span><br>
+				    <span class="block-3__item-text-2">800+ кг</span> <br>
+					<span class="block-3__item-text-3">на марш</span>
+				</p>
+			</div>
+			<div class="block-3__item">
+				<p>
+				    <span class="block-3__item-text-3">монтаж на объекте</span> <br>
+					<span class="block-3__item-text-2">за 6 часов</span> <br>
+					<span class="block-3__item-text-3">или бесплатно</span>
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- portfolio ПОРТФОЛИО ВЫПОЛНЕННЫХ РАБОТ -->
+	<section class="portfolio">
+		<div class="wrapper">
+			<h2 class="h2-title">ПОРТФОЛИО ВЫПОЛНЕННЫХ РАБОТ</h2>
+
+			<h3 class="h3__item-1">Одномаршевые</h3>
+      <div class="portfolio__item-wrapper">
+        <div class="portfolio__item ">
+          <img src="image/jn-123.jpeg" alt="icon">
+          <p>
+          	162 000р., Престиж<br>
+          	<span>г. Москва</span>
+          </p>         	  	
+        </div>
+        <div class="portfolio__item">
+          <img src="image/portfolio/Odnomarshevie/2/1.jpg" alt="icon">
+          <p>
+          	146 000р., Стандарт<br>
+          	<span>г. Москва</span>
+          </p>         	  	
+        </div>
+        <div class="portfolio__item">
+          <img src="image/portfolio/Odnomarshevie/3/1.jpg" alt="icon">
+          <p>
+          	154 000р., Стандарт<br>
+          	<span>г. Москва</span>
+          </p>         	  	
+        </div>
+        <div class="portfolio__item">
+          <img src="image/portfolio/Odnomarshevie/4/1.jpg" alt="icon">
+          <p>
+          	135 000р., Стандарт<br>
+          	<span>г. Москва</span>
+          </p>         	  	
+        </div>                              
+      </div>
+
+			<h3 class="h3__item-2">Г-образные</h3>
+      <div class="portfolio__item-wrapper">
+        <div class="portfolio__item">
+          <img src="image/portfolio/90gradusov/1/1.jpg" alt="icon">
+          <p>
+          	175 000р., Стандарт<br>
+          	<span>г. Москва</span>
+          </p>         	  	
+        </div>
+        <div class="portfolio__item">
+	        <img src="image/portfolio/90gradusov/2/1.jpg" alt="icon">
+          <p>
+          	181 000р., Стандарт<br>
+          	<span>г. Москва</span>
+          </p>         	  	
+        </div>
+        <div class="portfolio__item">
+          <img src="image/portfolio/90gradusov/3/1.jpg" alt="icon">
+          <p>
+          	173 000р., Стандарт<br>
+          	<span>г. Москва</span>
+          </p>         	  	
+        </div>
+        <div class="portfolio__item">
+	        <img src="image/portfolio/90gradusov/4/2.jpg" alt="icon">
+          <p>
+          	178 000р., Стандарт<br>
+          	<span>г. Москва</span>
+          </p>         	  	
+        </div>                              
+      </div>
+
+			<h3 class="h3__item-3">П-образные</h3>
+      <div class="portfolio__item-wrapper">
+        <div class="portfolio__item">
+          <img src="image/portfolio/180gradusov/1/1.jpg" alt="icon">
+          <p>
+          	351 000р., Престиж<br>
+          	<span>г. Москва</span>
+          </p>         	  	
+        </div>
+        <div class="portfolio__item">
+          <img src="image/portfolio/180gradusov/2/3.jpg" alt="icon">
+          <p>
+          	198 000р., Стандарт<br>
+          	<span>г. Москва</span>
+          </p>         	  	
+        </div>
+        <div class="portfolio__item">
+          <img src="image/portfolio/180gradusov/3/1.jpg" alt="icon">
+          <p>
+          	223 000р., Стандарт<br>
+          	<span>г. Москва</span>
+          </p>         	  	
+        </div>
+        <div class="portfolio__item">
+          <img src="image/portfolio/180gradusov/4/1.jpg" alt="icon">
+          <p>
+          	205 000р., Стандарт<br>
+          	<span>г. Москва</span>
+          </p>         	  	
+        </div>                              
+      </div>
+    </div>
+	</section>
+
+	<!-- калькулятор Он-лайн Калькулятор -->
+	<section class="calculator">
+		<div class="wrapper">
+			<div class="calculator__title-wrapper">
+				<h2 class="h2-title calculator__h2-title">Для расчета стоимости лестницы <br> ВОСПОЛЬЗУЙТЕСЬ<span> ОН-ЛАЙН КАЛЬКУЛЯТОРОМ</span></h2>
+			</div>
+
+			<h2 class="h2-title">Выберите тип подъема</h2>
+		  <div class="swiper-container calculator-block1">
+		    <div class="swiper-wrapper">
+		      <div class="swiper-slide calculator-item-wrapper">
+		      	<h3>Прямая</h3>
+		      	<div class="calculator__image-wrapper">
+		      		<img src="image/calculator/block-1/6.png" alt="image">
+		      	</div>
+		      	<p class="calculator__radio">
+		      		<input value="0.95" checked type="radio" name="sum-block-1" id="block-1-calc-item-1" class="calculator-item">
+		      		<label for="block-1-calc-item-1"></label>
+		      	</p>
+		      </div>
+		      <div class="swiper-slide calculator-item-wrapper">
+		      	<h3>Г-образная</h3>
+		      	<div class="calculator__image-wrapper">
+		      		<img src="image/calculator/block-1/2.png" alt="image">
+		      	</div>
+		      	<p class="calculator__radio">
+		      		<input value="0.95" type="radio" name="sum-block-1" id="block-1-calc-item-2" class="calculator-item">
+		      		<label for="block-1-calc-item-2"></label>
+		      	</p>
+		      </div>
+		      <div class="swiper-slide calculator-item-wrapper">
+		      	<h3>Г-образная забежная</h3>
+		      	<div class="calculator__image-wrapper">
+		      		<img src="image/calculator/block-1/3.png" alt="image">
+		      	</div>
+		      	<p class="calculator__radio">
+		      		<input value="1" type="radio" name="sum-block-1" id="block-1-calc-item-3" class="calculator-item">
+		      		<label for="block-1-calc-item-3"></label>
+		      	</p>
+		      </div>
+		      <div class="swiper-slide calculator-item-wrapper">
+		      	<h3>П-образная</h3>
+		      	<div class="calculator__image-wrapper">
+		      		<img src="image/calculator/block-1/4.png" alt="image">
+		      	</div>
+		      	<p class="calculator__radio">
+		      		<input value="1.1" type="radio" name="sum-block-1" id="block-1-calc-item-4" class="calculator-item">
+		      		<label for="block-1-calc-item-4"></label>
+		      	</p>
+		      </div>
+		      <div class="swiper-slide calculator-item-wrapper">
+		      	<h3>П-образная забежная</h3>
+		      	<div class="calculator__image-wrapper">
+		      		<img src="image/calculator/block-1/5.png" alt="image">
+		      	</div>
+		      	<p class="calculator__radio">
+		      		<input value="1.15" type="radio" name="sum-block-1" id="block-1-calc-item-5" class="calculator-item">
+		      		<label for="block-1-calc-item-5"></label>
+		      	</p>
+		      </div>
+		      <div class="swiper-slide calculator-item-wrapper">
+		      	<h3>П-образная с 2 площадками</h3>
+		      	<div class="calculator__image-wrapper">
+		      		<img src="image/calculator/block-1/1.png" alt="image">
+		      	</div>
+		      	<p class="calculator__radio">
+		      		<input value="1.3" type="radio" name="sum-block-1" id="block-1-calc-item-6" class="calculator-item">
+		      		<label for="block-1-calc-item-6"></label>
+		      	</p>
+		      </div>
+		      <div class="swiper-slide calculator-item-wrapper">
+		      	<h3>Прямая с площадкой</h3>
+		      	<div class="calculator__image-wrapper">
+		      		<img src="image/calculator/block-1/7.png" alt="image">
+		      	</div>
+		      	<p class="calculator__radio">
+		      		<input value="0.9" type="radio" name="sum-block-1" id="block-1-calc-item-7" class="calculator-item">
+		      		<label for="block-1-calc-item-7"></label>
+		      	</p>
+		      </div>
+		      <div class="swiper-slide calculator-item-wrapper">
+		      	<h3>Прямая забежная</h3>
+		      	<div class="calculator__image-wrapper">
+		      		<img src="image/calculator/block-1/8.png" alt="image">
+		      	</div>
+		      	<p class="calculator__radio">
+		      		<input value="0.95" type="radio" name="sum-block-1" id="block-1-calc-item-8" class="calculator-item">
+		      		<label for="block-1-calc-item-8"></label>
+		      	</p>
+		      </div>
+		    </div>
+		    <!-- Add Arrows -->
+		    <div class="swiper-button-next"></div>
+		    <div class="swiper-button-prev"></div>
+		  </div>
+
+		  <h2 class="h2-title">Дизайн каркаса</h2>
+		  <div class="swiper-container calculator-block2">
+		    <div class="swiper-wrapper">
+		      <div class="swiper-slide calculator-item-wrapper">
+		      	<h3>Серия тетива</h3>
+		      	<div class="calculator__image-wrapper">
+		      		<img src="image/calculator/block-2/1.jpg" alt="image">
+		      	</div>
+		      	<p class="calculator__radio">
+		      		<input value="104000" checked type="radio" name="sum-block-2" id="block-2-calc-item-1" class="calculator-item">
+		      		<label for="block-2-calc-item-1"></label>
+		      	</p>
+		      </div>
+		      <div class="swiper-slide calculator-item-wrapper">
+		      	<h3>Серия косоур</h3>
+		      	<div class="calculator__image-wrapper">
+		      		<img src="image/calculator/block-2/2.jpg" alt="image">
+		      	</div>
+		      	<p class="calculator__radio">
+		      		<input value="108000" type="radio" name="sum-block-2" id="block-2-calc-item-2" class="calculator-item">
+		      		<label for="block-2-calc-item-2"></label>
+		      	</p>
+		      </div>
+		      <div class="swiper-slide calculator-item-wrapper">
+		      	<h3>Серия зиг-заг</h3>
+		      	<div class="calculator__image-wrapper">
+		      		<img src="image/calculator/block-2/3.jpg" alt="image">
+		      	</div>
+		      	<p class="calculator__radio">
+		      		<input value="110000" type="radio" name="sum-block-2" id="block-2-calc-item-3" class="calculator-item">
+		      		<label for="block-2-calc-item-3"></label>
+		      	</p>
+		      </div>
+		      <div class="swiper-slide calculator-item-wrapper">
+		      	<h3>Серия Diamond</h3>
+		      	<div class="calculator__image-wrapper">
+		      		<img src="image/calculator/block-2/4.jpg" alt="image">
+		      	</div>
+		      	<p class="calculator__radio">
+		      		<input value="130000" type="radio" name="sum-block-2" id="block-2-calc-item-4" class="calculator-item">
+		      		<label for="block-2-calc-item-4"></label>
+		      	</p>
+		      </div>
+		      <div class="swiper-slide calculator-item-wrapper">
+		      	<h3>Серия Wave</h3>
+		      	<div class="calculator__image-wrapper">
+		      		<img src="image/calculator/block-2/5.jpg" alt="image">
+		      	</div>
+		      	<p class="calculator__radio">
+		      		<input value="130000" type="radio" name="sum-block-2" id="block-2-calc-item-5" class="calculator-item">
+		      		<label for="block-2-calc-item-5"></label>
+		      	</p>
+		      </div>
+		      <div class="swiper-slide calculator-item-wrapper">
+		      	<h3>Серия Unity</h3>
+		      	<div class="calculator__image-wrapper">
+		      		<img src="image/calculator/block-2/6.jpg" alt="image">
+		      	</div>
+		      	<p class="calculator__radio">
+		      		<input value="143000" type="radio" name="sum-block-2" id="block-2-calc-item-6" class="calculator-item">
+		      		<label for="block-2-calc-item-6"></label>
+		      	</p>
+		      </div>
+		      <div class="swiper-slide calculator-item-wrapper">
+		      	<h3>Серия Mono</h3>
+		      	<div class="calculator__image-wrapper">
+		      		<img src="image/calculator/block-2/7.jpg" alt="image">
+		      	</div>
+		      	<p class="calculator__radio">
+		      		<input value="117000" type="radio" name="sum-block-2" id="block-2-calc-item-7" class="calculator-item">
+		      		<label for="block-2-calc-item-7"></label>
+		      	</p>
+		      </div>
+		      <div class="swiper-slide calculator-item-wrapper">
+		      	<h3>Серия Aero</h3>
+		      	<div class="calculator__image-wrapper">
+		      		<img src="image/calculator/block-2/8.jpg" alt="image">
+		      	</div>
+		      	<p class="calculator__radio">
+		      		<input value="117000" type="radio" name="sum-block-2" id="block-2-calc-item-8" class="calculator-item">
+		      		<label for="block-2-calc-item-8"></label>
+		      	</p>
+		      </div>
+		      <div class="swiper-slide calculator-item-wrapper">
+		      	<h3>Серия Console</h3>
+		      	<div class="calculator__image-wrapper">
+		      		<img src="image/calculator/block-2/9.jpg" alt="image">
+		      	</div>
+		      	<p class="calculator__radio">
+		      		<input value="156000" type="radio" name="sum-block-2" id="block-2-calc-item-9" class="calculator-item">
+		      		<label for="block-2-calc-item-9"></label>
+		      	</p>
+		      </div>
+		      <div class="swiper-slide calculator-item-wrapper">
+		      	<h3>Серия DESIGN</h3>
+		      	<div class="calculator__image-wrapper">
+		      		<img src="image/calculator/block-2/10.jpg" alt="image">
+		      	</div>
+		      	<p class="calculator__radio">
+		      		<input value="195000" type="radio" name="sum-block-2" id="block-2-calc-item-10" class="calculator-item">
+		      		<label for="block-2-calc-item-10"></label>
+		      	</p>
+		      </div>		      		      
+		    </div>
+		    <!-- Add Arrows -->
+		    <div class="swiper-button-next"></div>
+		    <div class="swiper-button-prev"></div>
+		  </div>
+
+		  <h2 class="h2-title">Материал ступеней</h2>
+		  <div class="swiper-container calculator-block3">
+		    <div class="swiper-wrapper">
+		      <div class="swiper-slide calculator-item-wrapper">
+		      	<h3>СОСНА</h3>
+		      	<div class="calculator__image-wrapper">
+		      		<img src="image/calculator/block-3/1.jpg" alt="image">
+		      	</div>
+		      	<p class="calculator__radio">
+		      		<input value="46000" checked type="radio" name="sum-block-3" id="block-3-calc-item-1" class="calculator-item">
+		      		<label for="block-3-calc-item-1"></label>
+		      	</p>
+		      </div>
+		      <div class="swiper-slide calculator-item-wrapper">
+		      	<h3>Дуб</h3>
+		      	<div class="calculator__image-wrapper">
+		      		<img src="image/calculator/block-3/2.jpg" alt="image">
+		      	</div>
+		      	<p class="calculator__radio">
+		      		<input value="104000" type="radio" name="sum-block-3" id="block-3-calc-item-2" class="calculator-item">
+		      		<label for="block-3-calc-item-2"></label>
+		      	</p>
+		      </div>
+		      <div class="swiper-slide calculator-item-wrapper">
+		      	<h3>ЛИСТВЕННИЦА</h3>
+		      	<div class="calculator__image-wrapper">
+		      		<img src="image/calculator/block-3/3.jpg" alt="image">
+		      	</div>
+		      	<p class="calculator__radio">
+		      		<input value="60000" type="radio" name="sum-block-3" id="block-3-calc-item-3" class="calculator-item">
+		      		<label for="block-3-calc-item-3"></label>
+		      	</p>
+		      </div>
+		      <div class="swiper-slide calculator-item-wrapper">
+		      	<h3>ЯСЕНЬ</h3>
+		      	<div class="calculator__image-wrapper">
+		      		<img src="image/calculator/block-3/4.jpg" alt="image">
+		      	</div>
+		      	<p class="calculator__radio">
+		      		<input value="75000" type="radio" name="sum-block-3" id="block-3-calc-item-4" class="calculator-item">
+		      		<label for="block-3-calc-item-4"></label>
+		      	</p>
+		      </div>
+		      <div class="swiper-slide calculator-item-wrapper">
+		      	<h3  style="opacity: 0;">ЯСЕНЬ </h3>
+		      	<div class="calculator__image-wrapper">
+		      		<img src="image/calculator/block-3/5.jpg" alt="image">
+		      	</div>
+		      	<p class="calculator__radio">
+		      		<input value="0" type="radio" name="sum-block-3" id="block-3-calc-item-5" class="calculator-item">
+		      		<label for="block-3-calc-item-5"></label>
+		      	</p>
+		      </div>		      		      		      		      
+		    </div>
+		    <!-- Add Arrows -->
+		    <div class="swiper-button-next"></div>
+		    <div class="swiper-button-prev"></div>
+		  </div>
+
+		  <h2 class="h2-title">ОГРАЖДЕНИЕ</h2>
+		  <div class="swiper-container calculator-block4">
+		    <div class="swiper-wrapper">
+		      <div class="swiper-slide calculator-item-wrapper">
+		      	<h3>Нержавеющая сталь</h3>
+		      	<div class="calculator__image-wrapper">
+		      		<img src="image/calculator/block-4/1.jpg" alt="image">
+		      	</div>
+		      	<p class="calculator__radio">
+		      		<input value="44000" checked type="radio" name="sum-block-4" id="block-4-calc-item-1" class="calculator-item">
+		      		<label for="block-4-calc-item-1"></label>
+		      	</p>
+		      </div>
+		      <div class="swiper-slide calculator-item-wrapper">
+		      	<h3>Комбинированное</h3>
+		      	<div class="calculator__image-wrapper">
+		      		<img src="image/calculator/block-4/2.jpg" alt="image">
+		      	</div>
+		      	<p class="calculator__radio">
+		      		<input value="52000" type="radio" name="sum-block-4" id="block-4-calc-item-2" class="calculator-item">
+		      		<label for="block-4-calc-item-2"></label>
+		      	</p>
+		      </div>
+		      <div class="swiper-slide calculator-item-wrapper">
+		      	<h3>Стекло</h3>
+		      	<div class="calculator__image-wrapper">
+		      		<img src="image/calculator/block-4/3.jpg" alt="image">
+		      	</div>
+		      	<p class="calculator__radio">
+		      		<input value="140000" type="radio" name="sum-block-4" id="block-4-calc-item-3" class="calculator-item">
+		      		<label for="block-4-calc-item-3"></label>
+		      	</p>
+		      </div>
+		      <div class="swiper-slide calculator-item-wrapper">
+		      	<h3  style="opacity: 0;">ЯСЕНЬ </h3>
+		      	<div class="calculator__image-wrapper">
+		      		<img src="image/calculator/block-4/4.jpg" alt="image">
+		      	</div>
+		      	<p class="calculator__radio">
+		      		<input value="0" type="radio" name="sum-block-4" id="block-4-calc-item-4" class="calculator-item">
+		      		<label for="block-4-calc-item-4"></label>
+		      	</p>
+		      </div>		      		      		      		      
+		    </div>
+		    <!-- Add Arrows -->
+		    <div class="swiper-button-next"></div>
+		    <div class="swiper-button-prev"></div>
+		  </div>
+
+		  <h2 class="h2-title">Монтаж</h2>
+		  <div class="calulator__last-item-wrapper calculator-block5">
+		  	<div class="calculator__last-item calculator-item-wrapper">
+	      	<h3>С монтажом и доставкой</h3>
+	      	<p class="calculator__radio">
+	      		<input value="27200" type="radio" name="sum-block-5" id="block-5-calc-item-1" class="calculator-item">
+	      		<label for="block-5-calc-item-1"></label>
+	      	</p>
+	      </div>
+		  	<div class="calculator__last-item calculator-item-wrapper">
+	      	<h3>Не требуется</h3>
+	      	<p class="calculator__radio">
+	      		<input value="0" type="radio" name="sum-block-5" id="block-5-calc-item-2" class="calculator-item">
+	      		<label for="block-5-calc-item-2"></label>
+	      	</p>
+	      </div>
+		  </div>
+
+		  <div class="calculator__sum-wrapper">
+		  	<button class="btn sum-btn" id="calc">Рассчитать</button>
+		  	<p class="counter">
+		  		Стоимость:&nbsp;<del id="delText" class="count">0</del>&nbsp;<span id="sum" class="count">0</span>&nbsp;рублей
+		  	</p>
+		  </div>
+		  <p class="calculator__timer calc-timer d-none">
+		  	Срок проведения акции истекает через 
+		  	<span class="calculator__timer-days">2</span> дня
+		  	<span class="calculator__time-hours">22</span> часа
+		  	<span class="calculator__timer-minutes">40</span> минут
+		  </p>
+
+			<div class="calculator__btn-wrapper">
+			  <button class="btn calculator__btn">Пригласить замерщика <br> <del> 3000Р </del> бесплатно </button>
+			</div>
+		</div>
+	</section>
+
+	<!-- блок 8 КАК МЫ ПРОИЗВОДИМ ЛЕСТНИЦЫ -->
+	<section class="block-8">
+		<div class="wrapper">
+			<h2 class="h2-title">КАК МЫ ПРОИЗВОДИМ ЛЕСТНИЦЫ</h2>
+			<div class="block-8__item">
+				<div class="block-8__image-block">
+					<img src="image/block-8-item-1.png" alt="item-icon">
+				</div>
+				<div class="block-8__text-block">
+					<h4>Замер</h4>
+					<p>
+						Замер является неотъемлемой частью изготовления лестницы. Визуальный осмотр и точные размеры, позволяют сформировать точное техническое задание для проектирования.
+					</p>
+					<div class="block-8__btn-wrapper">
+						<button class="btn green-btn">Бесплатный замер</button>
+					</div>
+				</div>
+			</div>
+			<div class="block-8__item">
+				<div class="block-8__text-block">
+					<h4>ПРОЕКТИРОВАНИЕ</h4>
+					<p>
+						Самая важная и ответственная часть производства. Главная задача "выжать" максимум из лестничного проема, поскольку зачастую при строительстве дома лестничному проему уделяют не достаточно внимания, и в следствие этого для лестницы остается минимум места. Мы спроектируем лестницу с максимально комфортным углом подъема.
+					</p>
+					<div class="block-8__btn-wrapper">
+						<a href="Пример проекта компания Stupenki.pro Стильные лестницы.pdf" download class="btn block-8__btn">Скачать «Пример проекта»</a>
+					</div>
+				</div>
+				<div class="block-8__image-block">
+					<img src="image/block-8-item-2.png" alt="item-icon">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- блок 9 ПРИ ПРОЕКТИРОВАНИИ УЧИТЫВАЕМ СТАДИЮ ОТДЕЛОЧНЫХ РАБОТ И КОНСТРУКЦИЮ ДОМА -->
+	<section class="block-9">
+		<div class="wrapper">
+			<h2 class="h2-title">ПРИ ПРОЕКТИРОВАНИИ УЧИТЫВАЕМ СТАДИЮ ОТДЕЛОЧНЫХ РАБОТ И КОНСТРУКЦИЮ ДОМА</h2>
+			<div class="block-9__item sixth__item-start">
+				<img src="image/block-9/1.jpg" alt="item-photo">
+				<p>
+					До чистовых отделочных работ. Учтем толщину отделочных материалов пола - после отделки будет одинаковая высота ступеней.
+				</p>
+			</div>
+			<div class="block-9__item sixth__item-center">
+				<img src="image/block-9/2.jpg" alt="item-photo">
+				<p>
+					Для деревянных домов. Сделаем скользящие крепления к перекрытию - на случай усадки дома.
+				</p>
+			</div>
+			<div class="block-9__item sixth__item-end">
+				<img src="image/block-9/3.jpg" alt="item-photo">
+				<p>
+					На стадии черновых работ. Заложим толщину стяжки и отделочных материалов, а также установим временные ступени.
+				</p>
+			</div>
+			<!-- <div class="block-9__btn-wrapper">
+				<button class="btn block-9__btn">Подобрать лестницу</button>
+			</div> -->
+		</div>
+	</section>
+
+	<!-- блок 10 СОМНЕВАЕТЕСЬ В ВЫБОРЕ? -->
+	<section class="block-10">
+		<div class="wrapper">
+			<h2 class="h2-title h2-title--no-center">СОМНЕВАЕТЕСЬ В ВЫБОРЕ?</h2>
+			<p class="text-for-title">- вызовите специалиста*</p>
+			<div class="block-10__content">
+				<div class="block-10__left-content">
+					<img src="image/block-10/item.png" alt="image">
+				</div>
+				<div class="block-10__right-content">
+					<h3 class="h3-title">
+						Вызать замерщика и получить 3D проект
+						<del>3000₽</del> бесплатно
+					</h3>
+					<form method="post" action="mail.php" class="form" onsubmit="if(!this['user_tel'].value){this['user_tel'].focus(); return false;} ym(47227377, 'reachGoal', 'form-send'); gtag('event', 'form_send', {'event_category': 'form', 'event_action': 'send'}); return true;">
+						<p class="form__item d-none">
+							<label for="form-name">Ваше имя (обязательно)</label>
+							<input type="text" id="form-name" name="user_name">
+						</p>
+						<p class="form__item">
+							<label for="form-tel">Номер телефона</label>
+							<input type="text" id="form-tel" name="user_tel">
+						</p>
+						<button type="submit" class="btn form__btn">Вызвать замерщика</button>
+					</form>
+				</div>
+				<p class="block-10__text">
+					*Специалист подскажет где можно сэкономить, а где не стоит. После замеров рассчитает окончательную стоимость лестницы. + по вашим размерам мы сделаем 3D проект вашей будущей лестницы	
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- блок 11	Фотографии -->
+	<section class="block-11 portfolio photo-block">
+		<div class="wrapper">
+			<h2 class="h2-title">Фотографии нашего производства</h2>
+
+			<h3 class="h3__item-1">Цех металлообработки</h3>
+      <div class="portfolio__item-wrapper">
+        <div class="portfolio__item new-swiper-container">
+    	  	<div class="swiper-wrapper">
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Metall/lazer/1.jpg" class="gallery__item--4" title="">
+		            <img src="image/Metall/lazer/1.jpg" alt="icon">
+		          </a>
+    	  		 </div>
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Metall/lazer/2.jpg" class="gallery__item--4" title="">
+		            <img src="image/Metall/lazer/2.jpg" alt="icon">
+		          </a>
+    	  		 </div>
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Metall/lazer/3.jpg" class="gallery__item--4" title="">
+		            <img src="image/Metall/lazer/3.jpg" alt="icon">
+		          </a>
+    	  		 </div>
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Metall/lazer/4.jpg" class="gallery__item--4" title="">
+		            <img src="image/Metall/lazer/4.jpg" alt="icon">
+		          </a>
+    	  		 </div>
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Metall/lazer/5.jpg" class="gallery__item--4" title="">
+		            <img src="image/Metall/lazer/5.jpg" alt="icon">
+		          </a>
+    	  		 </div>
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Metall/lazer/6.jpg" class="gallery__item--4" title="">
+		            <img src="image/Metall/lazer/6.jpg" alt="icon">
+		          </a>
+    	  		 </div>
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Metall/lazer/7.jpg" class="gallery__item--4" title="">
+		            <img src="image/Metall/lazer/7.jpg" alt="icon">
+		          </a>
+    	  		 </div>
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Metall/lazer/8.jpg" class="gallery__item--4" title="">
+		            <img src="image/Metall/lazer/8.jpg" alt="icon">
+		          </a>
+    	  		 </div>
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Metall/lazer/9.jpg" class="gallery__item--4" title="">
+		            <img src="image/Metall/lazer/9.jpg" alt="icon">
+		          </a>
+    	  		 </div>
+    	  	</div>
+			    <!-- Add Arrows -->
+			    <div class="swiper-button-next"></div>
+			    <div class="swiper-button-prev"></div>          	  	
+          <p>Лазерная резка металла с ЧПУ</p>         	  	
+        </div>
+        <div class="portfolio__item new-swiper-container">
+    	  	<div class="swiper-wrapper">
+    	  	    <div class="swiper-slide">
+    	  		 	<a href="image/Metall/poroshok/6.jpg" class="gallery__item--4" title="">
+		            <img src="image/Metall/poroshok/6.jpg" alt="icon">
+		          </a>
+    	  		 </div>
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Metall/poroshok/5.jpg" class="gallery__item--4" title="">
+		            <img src="image/Metall/poroshok/5.jpg" alt="icon">
+		          </a>
+    	  		 </div>
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Metall/poroshok/4.jpg" class="gallery__item--4" title="">
+		            <img src="image/Metall/poroshok/4.jpg" alt="icon">
+		          </a>
+    	  		 </div>
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Metall/poroshok/1.jpg" class="gallery__item--4" title="">
+		            <img src="image/Metall/poroshok/1.jpg" alt="icon">
+		          </a>
+    	  		 </div>
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Metall/poroshok/2.jpg" class="gallery__item--4" title="">
+		            <img src="image/Metall/poroshok/2.jpg" alt="icon">
+		          </a>
+    	  		 </div>
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Metall/poroshok/3.jpg" class="gallery__item--4" title="">
+		            <img src="image/Metall/poroshok/3.jpg" alt="icon">
+		          </a>
+    	  		 </div>
+    	  	</div>
+			    <!-- Add Arrows -->
+			    <div class="swiper-button-next"></div>
+			    <div class="swiper-button-prev"></div>          	  	
+          <p>Камера порошковой покраски</p>         	  	
+        </div>
+        <div class="portfolio__item new-swiper-container">
+    	  	<div class="swiper-wrapper">
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Metall/svarka/3.jpg" class="gallery__item--4" title="">
+		            <img src="image/Metall/svarka/3.jpg" alt="icon">
+		          </a>
+    	  		 </div>
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Metall/svarka/2.jpg" class="gallery__item--4" title="">
+		            <img src="image/Metall/svarka/2.jpg" alt="icon">
+		          </a>
+    	  		 </div>
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Metall/svarka/1.jpg" class="gallery__item--4" title="">
+		            <img src="image/Metall/svarka/1.jpg" alt="icon">
+		          </a>
+    	  		 </div>
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Metall/svarka/4.jpg" class="gallery__item--4" title="">
+		            <img src="image/Metall/svarka/4.jpg" alt="icon">
+		          </a>
+    	  		 </div>
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Metall/svarka/5.jpg" class="gallery__item--4" title="">
+		            <img src="image/Metall/svarka/5.jpg" alt="icon">
+		          </a>
+    	  		 </div>
+    	  	</div>
+			    <!-- Add Arrows -->
+			    <div class="swiper-button-next"></div>
+			    <div class="swiper-button-prev"></div>          	  	
+          <p>Сборочно-сварочный пункт</p>         	  	
+        </div>
+      </div>
+
+			<h3 class="h3__item-2">Столярный цех</h3>
+      <div class="portfolio__item-wrapper">
+        <div class="portfolio__item new-swiper-container">
+    	  	<div class="swiper-wrapper">
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Stolyarka/stolyarka/1.jpg" class="gallery__item--5" title="">
+		            <img src="image/Stolyarka/stolyarka/1.jpg" alt="icon">
+		          </a>
+    	  		 </div>
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Stolyarka/stolyarka/2.jpg" class="gallery__item--5" title="">
+		            <img src="image/Stolyarka/stolyarka/2.jpg" alt="icon">
+		          </a>
+    	  		 </div>
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Stolyarka/stolyarka/3.jpg" class="gallery__item--5" title="">
+		            <img src="image/Stolyarka/stolyarka/3.jpg" alt="icon">
+		          </a>
+    	  		 </div>
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Stolyarka/stolyarka/4.jpg" class="gallery__item--5" title="">
+		            
+		          </a>
+    	  		 </div>
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Stolyarka/stolyarka/5.jpg" class="gallery__item--5" title="">
+		            
+		          </a>
+    	  		 </div>
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Stolyarka/stolyarka/6.jpg" class="gallery__item--5" title="">
+		            
+		          </a>
+    	  		 </div>
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Stolyarka/stolyarka/7.jpg" class="gallery__item--5" title="">
+		            
+		          </a>
+    	  		 </div>
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Stolyarka/stolyarka/8.jpg" class="gallery__item--5" title="">
+		            
+		          </a>
+    	  		 </div>
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Stolyarka/stolyarka/9.jpg" class="gallery__item--5" title="">
+		            
+		          </a>
+    	  		 </div>
+    	  	</div>
+			    <!-- Add Arrows -->
+			    <div class="swiper-button-next"></div>
+			    <div class="swiper-button-prev"></div>          	  	
+          <p>Столярный цех</p>         	  	
+        </div>
+        <div class="portfolio__item new-swiper-container">
+    	  	<div class="swiper-wrapper">
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Stolyarka/frezer/4.jpg" class="gallery__item--5" title="">
+		            <img src="image/Stolyarka/frezer/4.jpg" alt="icon">
+		          </a>
+    	  		 </div>
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Stolyarka/frezer/2.jpg" class="gallery__item--5" title="">
+		            <img src="image/Stolyarka/frezer/2.jpg" alt="icon">
+		          </a>
+    	  		 </div>
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Stolyarka/frezer/3.jpg" class="gallery__item--5" title="">
+		            <img src="image/Stolyarka/frezer/3.jpg" alt="icon">
+		          </a>
+    	  		 </div>
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Stolyarka/frezer/1.jpg" class="gallery__item--5" title="">
+		            <img src="image/Stolyarka/frezer/1.jpg" alt="icon">
+		          </a>
+    	  		 </div>
+    	  	</div>
+			    <!-- Add Arrows -->
+			    <div class="swiper-button-next"></div>
+			    <div class="swiper-button-prev"></div>          	  	
+          <p>Фрезерный станок ЧПУ по дереву</p>         	  	
+        </div>
+        <div class="portfolio__item new-swiper-container">
+    	  	<div class="swiper-wrapper">
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Stolyarka/pokraska dereva/11.jpg" class="gallery__item--5" title="">
+		            <img src="image/Stolyarka/pokraska dereva/11.jpg" alt="icon">
+		          </a>
+    	  		 </div>
+    	  		 <div class="swiper-slide">
+    	  		 	<a href="image/Stolyarka/pokraska dereva/22.jpg" class="gallery__item--5" title="">
+		            <img src="image/Stolyarka/pokraska dereva/22.jpg" alt="icon">
+		          </a>
+    	  		 </div>
+			    <!-- Add Arrows -->
+			    <div class="swiper-button-next"></div>
+			    <div class="swiper-button-prev"></div>          	  	
+          <p>Пункт покраски древесины</p>         	  	
+        </div>
+      </div>
+    </div>
+	</section>
+
+	<!-- блок 12 ВАШИ ПРЕИМУЩЕСТВА ПРИ ЗАКАЗЕ ЛЕСТНИЦЫ У НАС -->
+	<section class="block-12">
+		<div class="wrapper">
+			<h2 class="h2-title h2-title--no-center">ВАШИ ПРЕИМУЩЕСТВА ПРИ ЗАКАЗЕ ЛЕСТНИЦЫ У НАС</h2>
+			<div class="block-12__item-wrapper">
+				<div class="block-12__item">
+					<img src="image/block-12/star.png" alt="photo-item">
+					<p>
+				Лестница ни когда не заскрипит и не будет скользить
+					</p>
+				</div>
+				<div class="block-12__item">
+					<img src="image/block-12/money.png" alt="photo-item">
+					<p>С нами вы экономите в среднем 45 000 рублей</p>
+				</div>
+				<div class="block-12__item">
+					<img src="image/block-12/guarantee5years.png" alt="photo-item">
+					<p>
+						Гарантия соблюдения условий и сроков по договору, 3% от стоимости за день просрочки
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- блок 14 ЭКСКЛЮЗИВНЫЙ ДИЗАЙН -->
+	<section class="block-14 galery">
+		<div class="wrapper">
+			<h2 class="h2-title h2-title--no-center">ЭКСКЛЮЗИВНЫЙ ДИЗАЙН</h2>
+			<div class="galery__item-wrapper">
+				<div class="galery__item">
+					<img src="image/galery/design.jpg" alt="item" class="galery__item-img">
+					<div class="hover-item">
+						<div class="hover-item__center">
+							<h4 class="hover-item__title">Серия Design</h4>
+							<a href="#" class="btn hover-item__btn">Подробнее</a>
+						</div>
+					</div>
+				</div>
+				<div class="galery__item">
+					<img src="image/galery/design.jpg" alt="item" class="galery__item-img">
+					<div class="hover-item">
+						<div class="hover-item__center">
+							<h4 class="hover-item__title">Серия Design</h4>
+							<a href="#" class="btn hover-item__btn">Подробнее</a>
+						</div>
+					</div>
+				</div>
+				<div class="galery__item">
+					<img src="image/galery/design.jpg" alt="item" class="galery__item-img">
+					<div class="hover-item">
+						<div class="hover-item__center">
+							<h4 class="hover-item__title">Серия Design</h4>
+							<a href="#" class="btn hover-item__btn">Подробнее</a>
+						</div>
+					</div>
+				</div>
+				<div class="galery__item">
+					<img src="image/galery/design.jpg" alt="item" class="galery__item-img">
+					<div class="hover-item">
+						<div class="hover-item__center">
+							<h4 class="hover-item__title">Серия Design</h4>
+							<a href="#" class="btn hover-item__btn">Подробнее</a>
+						</div>
+					</div>
+				</div>
+				<div class="galery__item">
+					<img src="image/galery/design.jpg" alt="item" class="galery__item-img">
+					<div class="hover-item">
+						<div class="hover-item__center">
+							<h4 class="hover-item__title">Серия Design</h4>
+							<a href="#" class="btn hover-item__btn">Подробнее</a>
+						</div>
+					</div>
+				</div>
+				<div class="galery__item">
+					<img src="image/galery/design.jpg" alt="item" class="galery__item-img">
+					<div class="hover-item">
+						<div class="hover-item__center">
+							<h4 class="hover-item__title">Серия Design</h4>
+							<a href="#" class="btn hover-item__btn">Подробнее</a>
+						</div>
+					</div>
+				</div>
+				<div class="galery__item">
+					<img src="image/galery/design.jpg" alt="item" class="galery__item-img">
+					<div class="hover-item">
+						<div class="hover-item__center">
+							<h4 class="hover-item__title">Серия Design</h4>
+							<a href="#" class="btn hover-item__btn">Подробнее</a>
+						</div>
+					</div>
+				</div>
+				<div class="galery__item">
+					<img src="image/galery/design.jpg" alt="item" class="galery__item-img">
+					<div class="hover-item">
+						<div class="hover-item__center">
+							<h4 class="hover-item__title">Серия Design</h4>
+							<a href="#" class="btn hover-item__btn">Подробнее</a>
+						</div>
+					</div>
+				</div>
+				<div class="galery__item">
+					<img src="image/galery/design.jpg" alt="item" class="galery__item-img">
+					<div class="hover-item">
+						<div class="hover-item__center">
+							<h4 class="hover-item__title">Серия Design</h4>
+							<a href="#" class="btn hover-item__btn">Подробнее</a>
+						</div>
+					</div>
+				</div>								
+				<em>
+					*Дизайн металлических каркасов разработан нашей компанией и является объектом авторского права. Наш каталог включает более 500 авторских узоров. Запрещается любое копирование дизайна металлического каркаса лестниц как в личных целях, так и для коммерческого использования
+				</em>
+			</div>	
+		</div>
+	</section>
+
+	<!-- блок 15 ответы на вопросы -->
+	<section class="block-15">
+		<div class="wrapper">
+			<h2 class="h2-title h2-title--no-center">ОТВЕТЫ НА ВОПРОСЫ</h2>
+			<div class="block-15__item-wrapper">
+				<div class="block-15__item-left">
+					<div class="block-15__item">
+						<div class="block-15__title">
+							<h3>Фиксирована ли стоимость. Какие сроки изготовления и монтажа.?</h3>
+							<i class="fas fa-arrow-right"></i>
+						</div>
+						<p class="block-15__content block-15__content--hidden">
+		          Окончательная стоимость полностью соответствует предварительному расчету на сайте и подтверждается во время замера. Фиксируется в договоре. Изменение возможно лишь в том случае если вы внесете дополнительные, изменения в процессе производства, в случае если они влекут увеличение объема работ.
+
+							Срок изготовления четко прописан в договоре, как правило он составляет от 14 до 28 рабочих дней. Зависит от типа лестницы и вариантов отделки. За нарушение нами сроков в договоре предусмотрены штрафные санкции. 
+						</p>
+					</div>
+					<div class="block-15__item">
+						<div class="block-15__title">
+							<h3>Как осуществляется ОПЛАТА. Требуется ли ПРЕДОПЛАТА?</h3>
+							<i class="fas fa-arrow-right"></i>
+						</div>
+						<p class="block-15__content block-15__content--hidden">
+							Существует 2 варианта оплаты: Первый. При заключении договора Вы вносите предоплату в размере 50% от сметной стоимости. Оставшаяся часть денег вносится после изготовления и монтажа лестницы и подписания акта выполненных работ. Второй. Поэтапная оплата: -10% При заключении договора -25% Перед изготовлением каркаса лестницы -15% Перед изготовлением ступеней и ограждения -Оставшаяся часть денег вносится после изготовления и монтажа лестницы и подписания акта выполненных работ После каждого этапа мы предоставляем фото\видео отчет, либо Вы можете приехать на производство и самостоятельно увидеть ход работы. Мы рекомендуем выбирать первый вариант оплаты, поскольку он не замедляет ход выполнения работ.
+						</p>
+					</div>
+					<div class="block-15__item">
+						<div class="block-15__title">
+							<h3>Какие гарантии вы даете покупателям?</h3>
+							<i class="fas fa-arrow-right"></i>
+						</div>
+						<p class="block-15__content  block-15__content--hidden">
+							На свои лестницы мы даем письменные гарантии, подтвержденные в договоре. 
+
+							Гарантия на целостность конструкции — 5 лет (60 месяцев). 
+							Размеры и формы всех элементов лестницы останутся первоначальными в течение всего срока действия гарантии в случае соблюдения требуемых мер по уходу и эксплуатации. 
+
+							Гарантия на покраску — 2 года (24 месяца).
+							 Лаковое покрытие, нанесенное на лестницу, не сотрется и не отделится от древесины и металла на протяжении двухлетнего периода с даты монтажа конструкции. 
+
+							Гарантия соблюдения сроков изготовления  
+							Наша компания осуществляет изготовление и доставку лестниц точно в оговоренные сроки. В противном случае клиенту будет выплачен штраф согласно договору.
+						</p>
+					</div>
+					<div class="block-15__item">
+						<div class="block-15__title">
+							<h3>В какой момент строительства лучше заказывать и устанавливать межэтажную лестницу?</h3>
+							<i class="fas fa-arrow-right"></i>
+						</div>
+						<p class="block-15__content block-15__content--hidden">
+							Лестницы на металлокаркасе лучше всего устанавливать на чистовой пол, хотя у наших специалистов не будет никаких проблем снять замеры и установить лестницу сразу после окончания "грубых" работ.
+
+							Заказывать лестницу в мастерской Stupenki.pro можно на любом этапе строительных/ремонтных работ.
+						</p>
+					</div>						
+				</div>
+				<div class="block-15__item-right">
+					<div class="block-15__item">
+						<div class="block-15__title">
+							<h3>Вы производитель или посредник?</h3>
+							<i class="fas fa-arrow-right"></i>
+						</div>
+						<p class="block-15__content block-15__content--hidden">
+							Заказывая, лестницу у нас, вы обращаетесь непосредственно к производителю.
+						</p>
+					</div>
+					<div class="block-15__item">
+						<div class="block-15__title">
+							<h3>Почему вы производите лестницы из листового металла, на металлокаркасе?</h3>
+							<i class="fas fa-arrow-right"></i>
+						</div>
+						<p class="block-15__content block-15__content--hidden">
+							За 20 лет существования нашей мастерской мы работали со всеми видами лестниц (на монокосуре, из профильной трубы, швеллера, уголка) и экспериментальным путем и ориентируясь на отзывы покупателей мы выяснили, что лестницы из листового металла обработанного на современном ЧПУ оборудовании показывают характеристики прочности аналогичные всем другим видам лестниц на металлическом каркасе (выдерживая нагрузку не менее 800кг) при этом отсутствуют какие либо отклоениня за счет чего исключается появление скрипа, а так же позволяют устанавливать на продукцию гораздо более привлекательную цену.
+						</p>
+					</div>
+					<div class="block-15__item">
+						<div class="block-15__title">
+							<h3>Могу я заказать у вас лестницу и установить ее своими руками?</h3>
+							<i class="fas fa-arrow-right"></i>
+						</div>
+						<p class="block-15__content block-15__content--hidden">
+							Да, вы можете спроектировать лестницу и рассчитать необходимые детали в нашем онлайн калькуляторе или при помощи специалиста. Вы сразу узнаете конечную стоимость деталей без монтажа и сроки изготовления. Кроме того, у нас есть максимально подробные видео инструкции по самостоятельной установке лестницы наших лестниц, а все необходимые комплектующие для монтажа идут в комплекте.
+						</p>
+					</div>
+					<div class="block-15__item">
+						<div class="block-15__title">
+							<h3>Будет ли ваша лестница скрипеть?</h3>
+							<i class="fas fa-arrow-right"></i>
+						</div>
+						<p class="block-15__content block-15__content--hidden">
+							Нет, наши лестницы не скрипят даже через 30 и 60 лет после установки. Дело в том, что все детали производятся на ЧПУ станках с точностью изготовления деталей до 1/10 мм, а значит в лестнице не бывает никаких зазоров. Кроме этого, во время монтажа все стыки деталей проклеиваются специальным клеем и лестница превращается в цельный монолит, у которого просто нет и не может быть подвижных деталей, которые могли бы скрипеть.
+						</p>
+					</div>
+				</div>
+				<div class="block-15__btn-wrapper">
+					<button class="btn">Остались вопросы задайте вопрос консультанту</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- футер -->
+	<footer class="footer" id="footer">
+		<div class="wrapper">
+			<div class="footer__left-content">
+
+	    </div>
+			<div class="footer__right-content">
+				<h2 class="h2-title">Наши Контакты</h2>
+				<p class="footer__right-item">
+					<span>Адрес</span>
+					123290, г.Москва, 1-й Магистральный пр-д, д.11, оф. "Стильные лестницы", вход с торца здания.<br> 
+					170002, г.Тверь, БЦ "Тверь" 12 этаж, оф. "Стильные лестницы"
+				</p>
+				<p class="footer__right-item">
+					<span>ТЕЛЕФОН И E-MAIL</span>
+					Телефон : + 7-900-4-733-733<br>
+					E-mail : stupenki-pro@yandex.ru
+				</p>
+				<p class="footer__right-item">
+					<span>ЧАСЫ РАБОТЫ</span>
+					с 8 до 20 часов <br> 
+					Без выходных и перерыва на обед
+				</p>
+				<p class="footer__right-item">
+					<span>ДАННЫЕ ОБ ОРГАНИЗАЦИИ</span>
+					ОГРНИП: 3186-9520-0000-939<br> 
+					ИНН: 6950-0551-5158
+				</p>
+				<p class="footer__right-item footer__right-item--last">
+					<span>О сайте</span>
+					<a href="#">Защита авторских прав копирования</a><br>
+					<a href="#">Политика конфиденциальности</a>
+				</p>																
+			</div>
+			<div class="footer__text">
+				©2015 - 2018 | Обращаем ваше внимание на то, что данный интернет-сайт носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 (2) Гражданского кодекса Российской Федерации. Для получения подробной информации о наличии и стоимости указанных товаров и (или) услуг, пожалуйста, обращайтесь по телефону указанному на сайте  <a href="#"> stupenki.pro</a>
+			</div>
+		</div>
+	</footer>
+
+	<!-- попап окна  -->
+	<div class="popup-bg d-none animated fadeIn"></div>
+	<!-- окно формы -->
+	<div class="popup-form d-none animated fadeIn">
+		<h2>Получить расчет лестницы в 3-х ценовых вариантах</h2>
+		<i class="far fa-times-circle popup-exit__form"></i>		
+		<form method="post" action="mail.php" onsubmit="if(!this['user_tel'].value){this['user_tel'].focus(); return false;} ym(47227377, 'reachGoal', 'form-send'); gtag('event', 'form_send', {'event_category': 'form', 'event_action': 'send'}); return true;">
+			<label for="telephone"></label>
+			<input id="telephone" type="text" placeholder="Введите телефон" name="user_tel">
+			<button class="popup-btn btn">Получить расчет</button>
+		</form>
+	</div>
+	<!-- галерея -->
+	<div class="popup-galery-card d-none animated fadeIn">
+		<i class="fa fa-times-circle card__exit popup-exit__galery"></i>	
+		<div class="wrapper">
+			<div class="galery-card__left-content">
+				<img src="image/galery/design.jpg" alt="image" class="galery-card__image card__body__first_icon">
+				<p class="galery-card__price">
+					Стоимость: от <span class="card-price">70000</span>р пог. метр
+				</p>
+				<button class="btn galery-card__calc-btn">Калькулятор</button>
+				<button class="btn galery-card__form-btn">Консультация специалиста</button>
+			</div>
+			<div class="galery-card__right-content">
+				<h3 class="card__title-item">Эксклюзивная серия</h3>
+				<p class="card__text">
+					Лестница из серии Design. Дизайн тетивы лестницы разработан и рассчитан инженерами нашей компании. Не имеет аналогов и защещен законом о защите авторских прав. В каталоге более 500 авторски узоров.
+					Для расчета стоимости различных конфигураций подъема(Г-образные, П-образные, забежные, поворотные и другие), дизайна и комплектации- нажмите на кнопку калькулятор.
+				</p>
+				<h4>Типы подьемов:</h4>
+				<div class="galery-card__type">
+					<div class="galery-card__type-item galery-card__type-item1">
+						<img src="image/calculator/block-1/1.png" alt="img">
+					</div>
+					<div class="galery-card__type-item galery-card__type-item2">
+						<img src="image/calculator/block-1/2.png" alt="img">
+					</div>
+					<div class="galery-card__type-item galery-card__type-item3">
+						<img src="image/calculator/block-1/3.png" alt="img">
+					</div>
+					<div class="galery-card__type-item galery-card__type-item4">
+						<img src="image/calculator/block-1/4.png" alt="img">
+					</div>
+					<div class="galery-card__type-item galery-card__type-item5">
+						<img src="image/calculator/block-1/5.png" alt="img">
+					</div>
+					<div class="galery-card__type-item galery-card__type-item6">
+						<img src="image/calculator/block-1/6.png" alt="img">
+					</div>
+					<div class="galery-card__type-item galery-card__type-item7">
+						<img src="image/calculator/block-1/7.png" alt="img">
+					</div>
+					<div class="galery-card__type-item galery-card__type-item8">
+						<img src="image/calculator/block-1/8.png" alt="img">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<a href="tel:+79004733733" class="bottom-btn d-none" onclick="ym(47227377, 'reachGoal', 'tel-click'); gtag('event', 'tel_click', {'event_category': 'tel', 'event_action': 'click'}); return true;">
+		<i class="fas fa-phone bottom-btn__phone"></i>
+		Позвонить
+	</a>
+
+	<!-- // удаляем яндекс мапу на телефонах -->
+	<script>
+    window.onload = function(){
+        if(window.innerWidth >= 560){
+    	    document.querySelector('.footer__left-content').innerHTML = '<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A0aa11017ac43bd7fd51d3aae2c39bc7978dd34837e01d975c11a09bfe14caa18&amp;source=constructor" width="100%" height="500" frameborder="0"></iframe>';
+        }
+    };
+	</script>
+
+	<!-- шрифты -->
+  <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">  
+
+	<!-- effects -->
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<!-- скрипты -->
+  <script src="js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container',{
+      slidesPerView: 4,
+      spaceBetween: 30,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      breakpoints: {
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+        },
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+        },
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        }
+      },navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        }   
+    });
+    var swiper = new Swiper('.new-swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  	function SlowScrol(id){
+  		var offset = 50;
+		  $('html, body').animate ({
+	      scrollTop: $(id).offset().top
+		  }, 2000);
+		  return  false;
+		};    
+  </script>	
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/var.js"></script>
+  <script src="js/script.min.js"></script>
+
+</body>
+</html>

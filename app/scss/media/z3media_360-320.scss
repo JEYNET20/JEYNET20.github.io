@@ -1,0 +1,80 @@
+@media screen and (max-width: 359px){
+	.wrapper{
+		width: 320px !important;
+	}
+	.block-8 .wrapper{
+		width: 320px !important;
+	}
+	.header .h2-title{
+		font-size: 20px;
+	}
+	.block-1__item img{
+		height: 140px;
+	}
+	.block-1__text{
+		font-size: 16px;
+	}
+	.type__item{
+		height: 200px;
+	}
+	.type__item img{
+		height: 70%;
+	}
+	.price .h2-title{
+		font-size: 24px;
+	}
+	.portfolio .portfolio__item{
+		height: 220px;
+	}
+	.portfolio .portfolio__item p{
+		bottom: -60px;
+	}
+	.portfolio .portfolio__item{
+		margin-bottom: 70px;
+	}
+	.block-10__content{
+		width: 320px;
+	}
+	.block-10 .h3-title{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.form__item input{
+		box-sizing: border-box;
+	}
+	.block-15__title i{
+		font-size: 18px;
+	}
+	.popup-galery-card{
+		width: 320px;
+	}
+	.popup-galery-card .galery-card__left-content img{
+		height: 280px;
+	}
+	.popup-galery-card .wrapper{
+		padding: 15px;
+	}
+	.popup-galery-card .btn{
+		width: 140px;
+	}
+	.popup-galery-card .galery-card__type-item{
+		width: 65px;
+		height: 65px;
+	}
+	.footer__right-item{
+		font-size: 14px;
+	}
+	.footer__right-item--last a{
+		font-size: 14px;
+	}
+	.calculator .calulator__last-item-wrapper{
+		width: 280px;
+	}
+	.calculator__last-item{
+		width: 130px;
+	}
+	.portfolio .portfolio__item p{
+		bottom: 0;
+		font-size: 12px;
+	}
+}
