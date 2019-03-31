@@ -1,0 +1,52 @@
+.privacy-policy{
+	box-sizing: content-box;
+	padding-top: 150px;
+	margin-bottom: 165px;
+	color: rgb(69, 69, 69);
+	.wrapper{
+		width: 945px;
+		margin: 0 auto;
+	}
+	h2{
+		margin-top: 0;
+		margin-bottom: 70px;
+		font-size: 40px;
+		line-height: 58px;
+		font-weight: 100;
+		color: rgb(69, 69, 69);
+	}
+	h3{
+		margin-top: 25px;
+		margin-bottom: 30px;
+    font-size: 44px;
+    line-height: 48px;
+    font-weight: 100;
+	}
+	p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    margin: 0;
+    padding-bottom: 10px;
+    span{
+    	display: block;
+    	margin-top: 10px;
+    }
+	}
+	ol{
+		margin: 0;
+		padding: 0;
+		// list-style: none;
+		// list-style-position: inside;
+	}
+	li{
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-left: 32px;
+		box-sizing: border-box;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+	}
+
+}

@@ -1,0 +1,325 @@
+
+// меню  гамбургер
+@media screen and (max-width: 639px){
+	.header .container{
+		width: 560px;
+	}
+	.header .logo {
+    width: 106px;
+    height: 56px;
+	}	
+	.scroll-menu .wrapper{
+		width: 560px;
+	}
+	.main-nav{
+		height: 70px;
+	}
+	.main-menu__item--list{
+		padding-right: 0;
+	}
+}
+
+// Главная 560 - 640 
+@media screen and (max-width: 639px){
+	.about-us{
+		width: 560px;
+	}
+	.paralax--image2 .paralax__content{
+		flex-wrap: wrap;
+	}
+	.paralax--image2 .paralax__center,
+	.paralax--image2 .paralax__end,
+	.paralax--image2 .paralax__start{
+		width: 100%;
+	}
+	.paralax--image2 .paralax__list{
+		list-style-position: inside;
+	}
+	.service{
+		width: 560px;
+	}
+	.slider-block .wrapper{
+		width: 560px;
+	}
+	.divisions .wrapper{
+		width: 560px;
+	}
+	.about-studio .wrapper{
+		width: 560px;
+	}
+	.history .wrapper{
+		width: 560px;
+	}
+	.weekdays .wrapper{
+		width: 560px;
+	}
+}
+
+// Ателье 560 - 640
+@media screen and (max-width: 639px){
+	.weekdays__galery .galery__item:nth-child(1){
+    width: 262px;
+    height: 175px;
+		img{
+	    height: 175px;
+		}
+	}
+	.weekdays__galery .galery__item:nth-child(2){
+    width: 262px;
+    height: 175px;
+		img{
+	    height: 175px;
+		}
+	}
+	.weekdays__galery .galery__item:nth-child(3),
+	.weekdays__galery .galery__item:nth-child(5),
+	.weekdays__galery .galery__item:nth-child(6),
+	.weekdays__galery .galery__item:nth-child(8){
+    width: 209px;
+    height: 139px;
+    img{
+	    height: 139px;
+    }
+	}
+	.weekdays__galery .galery__item:nth-child(4),
+	.weekdays__galery .galery__item:nth-child(7){
+    width: 93px;
+    height: 139px;
+    img{
+	    height: 139px;
+    }
+	}
+	.equipment .wrapper{
+		width: 560px;
+	}
+}
+
+// услуги 560 - 640
+@media screen and (max-width: 639px){
+	.container-services .wrapper{
+		width: 560px;
+	}
+	.container-services .container-services__item-img{
+		height: 320px;
+		margin-top: 0;
+		margin-bottom: 15px;
+	}
+	.container-services .container-services__item-text{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.container-services__vertical-box
+	.container-services__item-vertical:nth-child(1){
+		display: none;
+	}
+	.container-services__vertical-box
+	.container-services__item-vertical:nth-child(2){
+		width: 100%;
+		height: 300px;
+		box-sizing: border-box;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.container-services__vertical-box
+	.container-services__item-vertical:nth-child(3){
+		display: none;
+	}
+	.container-services__last-box{
+		.btn-wrapper{
+			flex-wrap: wrap;
+			justify-content: center;
+			a{
+				width: 300px;
+				margin-bottom: 10px;
+			}
+		}
+	}
+}
+
+// Портфолио 560 - 640
+@media screen and (max-width: 639px){
+	.portfolio-title{
+		width: 560px;
+	}
+	.portfolio-block .wrapper{
+		width: 560px;
+	}
+}
+
+// Цены 560 - 640
+@media screen and (max-width: 639px){
+	.table-block .wrapper{
+		width: 560px;
+	}
+}
+
+// Контакты 560 - 640
+@media screen and (max-width: 639px){
+	.contacts-content .wrapper{
+		width: 560px;
+	}
+	.main-form-wrapper .wrapper{
+		width: 560px;
+	}
+}
+
+// Пользовательское соглашение 560 - 640
+@media screen and (max-width: 639px){
+	.user_agreement .wrapper{
+		width: 560px;
+	}
+}
+
+// Политика конфиденциальности 560 - 640
+@media screen and (max-width: 639px){
+	.privacy-policy .wrapper{
+		width: 560px;
+	}
+}
+
+// 404 560 - 640
+@media screen and (max-width: 639px){
+	.page-404 .wrapper{
+		width: 560px;
+	}
+}
+
+// b2b 560 - 640
+@media screen and (max-width: 639px){
+	.paralax__block .wrapper{
+		width: 560px;
+	}
+}
+
+// popup  560 - 640
+@media screen and (max-width: 639px){
+	.main-form{
+		width: 480px;
+	}
+	.main-form__item-wrapper--file-mod{
+		margin-bottom: 5px;
+	}
+	.main-form__item-wrapper{
+		margin-bottom: 5px;
+	}
+}
+
+// услуги новые стр адаптация для всех - 560 - 640
+@media screen and (max-width: 639px){
+	.uslugi-title .wrapper{
+		width: 560px;
+	}
+	.our-work .wrapper{
+		width: 560px;
+	}
+	.uslugi-title ul{
+		width: 100%;
+	}
+	.uslugi .our-work__list{
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		.our-work__item{
+			width: 260px;
+			height: 260px;
+		}
+	}
+	.uslugi-equipment .our-work__list{
+		width: 550px;
+	}
+	.uslugi-equipment .our-work__list .our-work__item{
+		width: 175px;
+		height: 175px;
+	}
+	.uslugi-paralax{
+		height: unset;
+	}	
+	.uslugi-paralax-title .paralax__content{
+		width: 500px;
+	}	
+	.uslugi .bold-text{
+		width: unset;
+	}
+	.uslugi-paralax{
+		background-image: unset !important;
+	}
+}
+
+// мех - 560 - 640 : 3
+@media screen and (max-width: 639px){
+	.str-meh .uslugi-table-block .wrapper{
+		width: 560px;		
+	}
+}
+
+// кожа - 560 - 640 : 4
+@media screen and (max-width: 639px){
+	.str-koja .uslugi-table-block .wrapper{
+		width: 560px;		
+	}
+}
+// замки  - 560 - 640 : 7
+@media screen and (max-width: 639px){
+	.str-zipper .uslugi-table-block .wrapper{
+		width: 560px;		
+	}
+	.str-zipper .uslugi-title p{
+		width: 100%;
+	}
+}
+
+// новые стр ЕЩЕ
+@media screen and (max-width: 639px){
+	.str-figure .how-to-take .wrapper{
+		width: 560px;
+	}
+	.paralax--image2 .paralax__center, .paralax--image2 .paralax__end, .paralax--image2 .paralax__start{
+		width: 33%;
+	}
+	.how-to-take{
+		padding-bottom: 50px;
+	}
+	.how-to-take .wrapper{
+		display: flex;
+		justify-content: center !important;
+	}
+	.str-figure .how-to-take__block{
+		width: 240px;
+		margin-right: 10px;
+		img{
+			width: 240px;
+			height: 200px;
+		}
+	}
+	.str-figure .how-to-take__block--4, .str-figure .how-to-take__block--5{
+		margin: 0;
+	}
+	.str-figure .btn--revievs{
+		margin-right: 15px;
+	}
+	.str-figure .uslugi-paralax-title .paralax__content{
+		width: 90%;
+	}
+	.divisions .h2-title{
+		font-size: 28px;
+	}
+	.str-figure{
+		overflow-x: hidden;
+	}
+	.main-menu__item a{
+		font-size: 12px;
+	}
+	.uslugi .main-title{
+		font-size: 28px;
+	}
+	.uslugi .bold-text{
+		font-size: 20px;
+		width: 100%;
+	}
+	.str-figure__price-paralax h6{
+		width: auto;
+	}
+	.str-figure .how-to-take__block p{
+		width: unset;
+	}
+}
