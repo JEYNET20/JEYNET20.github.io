@@ -702,8 +702,8 @@
 	var onPhoneBtnClick = function(){
 		phoneExit.classList.remove('d-none');
 
-		phoneBtn.style.right =  '-35px';
-		messageBtn.style.right = '-35px';
+		phoneBtn.style.right =  '-55px';
+		messageBtn.style.right = '-55px';
 
 		var client_w = document.documentElement.clientWidth;
 		if(client_w <= 500){
@@ -767,8 +767,8 @@
 	var onMessageBtnClick = function(){
 		messageExit.classList.remove('d-none');
 
-		phoneBtn.style.right =  '-35px';
-		messageBtn.style.right = '-35px';
+		phoneBtn.style.right =  '-55px';
+		messageBtn.style.right = '-55px';
 
 		setTimeout(function(){
 			var client_w = document.documentElement.clientWidth;

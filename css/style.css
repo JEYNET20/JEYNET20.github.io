@@ -1474,7 +1474,7 @@ table {
 .arrow-up {
   z-index: 12;
   position: fixed;
-  right: 30px;
+  right: 38px;
   bottom: 30px;
   width: 32px;
   height: 32px;
@@ -1492,9 +1492,9 @@ table {
   z-index: 12;
   position: fixed;
   right: 30px;
-  bottom: 120px;
-  width: 32px;
-  height: 32px;
+  bottom: 125px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.4);
   display: flex;
@@ -1511,9 +1511,9 @@ table {
   z-index: 12;
   position: fixed;
   right: 30px;
-  bottom: 80px;
-  width: 32px;
-  height: 32px;
+  bottom: 70px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.4);
   display: flex;
