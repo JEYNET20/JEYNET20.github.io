@@ -377,6 +377,9 @@ table{
   transition: all 200ms ease;	
   box-sizing: border-box;
   border: 2px solid red;
+  i{
+  	font-size: 26px;
+  }
 }
 
 .phone-form-btn{
@@ -397,6 +400,9 @@ table{
   transition: all 200ms ease;	
   box-sizing: border-box;
   border: 2px solid red;
+  i{
+  	font-size: 26px;
+  }
 }
 
 .message-form-btn:hover,

@@ -1506,6 +1506,8 @@ table {
   transition: all 200ms ease;
   box-sizing: border-box;
   border: 2px solid red; }
+  .message-form-btn i {
+    font-size: 26px; }
 
 .phone-form-btn {
   z-index: 12;
@@ -1525,6 +1527,8 @@ table {
   transition: all 200ms ease;
   box-sizing: border-box;
   border: 2px solid red; }
+  .phone-form-btn i {
+    font-size: 26px; }
 
 .message-form-btn:hover,
 .phone-form-btn:hover {
