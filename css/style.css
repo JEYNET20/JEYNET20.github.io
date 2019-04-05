@@ -1505,8 +1505,11 @@ table {
   cursor: pointer;
   transition: all 200ms ease;
   box-sizing: border-box;
-  border: 2px solid red; }
+  border: 1px solid #fe0600;
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.09), 0 2px 14px rgba(0, 0, 0, 0.19);
+  background-color: #fe0600; }
   .message-form-btn i {
+    color: #fff;
     font-size: 26px; }
 
 .phone-form-btn {
@@ -1526,8 +1529,11 @@ table {
   cursor: pointer;
   transition: all 200ms ease;
   box-sizing: border-box;
-  border: 2px solid red; }
+  border: 1px solid #fe0600;
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.09), 0 2px 14px rgba(0, 0, 0, 0.19);
+  background-color: #fe0600; }
   .phone-form-btn i {
+    color: #fff;
     font-size: 26px; }
 
 .message-form-btn:hover,
