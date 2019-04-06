@@ -86,9 +86,39 @@ table{
 			margin-right: 7px;
 		}
 	}
+	a:last-child{
+		margin-left: 10px;
+		font-size: 16px;
+		font-weight: 500;
+		border: 1px solid #fff;
+		color: #fff;
+		background-color: red;
+		box-sizing: border-box;
+		padding: 5px;	
+		position: relative;
+		border: 1px solid #333;
+		cursor: pointer;
+		// span{
+		// 	position: absolute;
+		// 	left: 50%;
+		// 	top: 50%;
+		// 	transform: translate(-50%, -50%);
+		// 	display: block;
+		// 	width: 90%;
+		// 	height: 90%;
+		// 	// background-color: grey;
+		// 	border: 1px dashed white;
+
+		// }	
+	}	
 	a:hover{
 		transition: all 300ms ease;
 		color: red;	
+	}
+	a:last-child:hover{
+		transition: all 300ms ease;
+	  background-color: #e40000;	
+	  color: white;
 	}
 }
 

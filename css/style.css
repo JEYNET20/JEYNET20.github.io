@@ -1281,9 +1281,25 @@ table {
       font-size: 12px;
       display: block;
       margin-right: 7px; }
+  .contacts a:last-child {
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: red;
+    box-sizing: border-box;
+    padding: 5px;
+    position: relative;
+    border: 1px solid #333;
+    cursor: pointer; }
   .contacts a:hover {
     transition: all 300ms ease;
     color: red; }
+  .contacts a:last-child:hover {
+    transition: all 300ms ease;
+    background-color: #e40000;
+    color: white; }
 
 .soc {
   width: 44px;

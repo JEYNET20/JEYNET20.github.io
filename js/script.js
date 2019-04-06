@@ -828,6 +828,11 @@
 		}
 	};	
 
+	var contactsEmail = document.querySelectorAll('.contacts__email');
+	for(var i = 0; i < contactsEmail.length; i++){
+		contactsEmail[i].addEventListener('click', onPhoneBtnClick);
+	}	
+
 	phoneBtn.addEventListener('click', onPhoneBtnClick);
 	messageBtn.addEventListener('click', onMessageBtnClick);
 	phoneExit.addEventListener('click', onPhoneExitClick);
