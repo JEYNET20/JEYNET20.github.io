@@ -1,0 +1,293 @@
+
+// меню  гамбургер
+@media screen and (max-width: 369px){
+	.header .container{
+		width: 360px;
+	}
+	.scroll-menu .wrapper{
+		width: 360px;
+	}
+	.wrapper-service-icon img{
+		height: 100px;
+	}
+	.service-block{
+		margin-top: 0;
+	}
+}
+
+// Главная 370 - 360  
+@media screen and (max-width: 369px){
+	.about-us{
+		width: 360px;
+	}
+	.service{
+		width: 360px;
+	}
+	.slider-block .wrapper{
+		width: 360px;
+	}
+	.divisions .wrapper{
+		width: 360px;
+	}
+	.about-studio .wrapper{
+		width: 360px;
+	}
+	.history .wrapper{
+		width: 360px;
+	}
+	.weekdays .wrapper{
+		width: 360px;
+	}
+	.our-work__item img{
+		transform: translate(-50%, -50%) scale(1.1);
+	}
+	.slider__text-block p{
+		font-size: 14px;
+		line-height: 20px;
+	}
+}
+
+// Ателье 370 - 360 
+@media screen and (max-width: 369px){
+	.equipment .wrapper{
+		width: 360px;
+	}
+	.weekdays__galery .galery__item{
+		margin-bottom: 5px;
+	}
+	.weekdays__galery .galery__item:nth-child(1),
+	.weekdays__galery .galery__item:nth-child(2){
+    width: 162px;
+    height: 108px;
+    img{
+	    height: 108px;
+    }
+	}
+}
+
+// услуги 370 - 360 
+@media screen and (max-width: 369px){
+	.container-services .wrapper{
+		width: 360px;
+	}
+}
+
+// Портфолио 370 - 360 
+@media screen and (max-width: 369px){
+	.portfolio-title{
+		width: 360px;
+	}
+	.portfolio-block .wrapper{
+		width: 360px;
+	}
+	.gallery__item--fabrics,
+	.gallery__item--fur,
+	.gallery__item--jackets,
+	.gallery__item--jeans,
+	.gallery__item--leather{
+		margin: 0;
+		margin-bottom: 50px;
+		width: 340px;
+	}
+}
+
+// Цены 370 - 360 
+@media screen and (max-width: 369px){
+	.table-block .wrapper{
+		width: 360px;
+		overflow-x: scroll;
+	}
+	.price-paralax .main-title{
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	.main-title{
+		font-size: 34px;
+	}
+}
+
+// Контакты 370 - 360 
+@media screen and (max-width: 369px){
+	.contacts-content .wrapper{
+		width: 360px;
+	}
+	.main-form-wrapper .wrapper{
+		width: 360px;
+	}
+	.contacts-content__item span{
+		font-size: 12px;
+	}
+}
+
+// Пользовательское соглашение 370 - 360 
+@media screen and (max-width: 369px){
+	.user_agreement .wrapper{
+		width: 360px;
+	}
+}
+
+// Политика конфиденциальности 370 - 360 
+@media screen and (max-width: 369px){
+	.privacy-policy .wrapper{
+		width: 360px;
+	}
+}
+
+// 404 370 - 360 
+@media screen and (max-width: 369px){
+	.page-404 .wrapper{
+		width: 360px;
+	}
+}
+
+// b2b 370 - 360 
+@media screen and (max-width: 369px){
+	.paralax__block .wrapper{
+		width: 360px;
+	}
+}
+
+// popup 370 - 360 
+@media screen and (max-width: 369px){
+	.popup-form-wrapper{
+    width: 330px;
+    // padding: 0;
+	}
+
+	.red--btn{
+		width: 330px !important;
+	}
+}
+
+// услуги новые стр адаптация для всех - 370 - 360
+@media screen and (max-width: 369px){
+	.uslugi-title .wrapper{
+		width: 360px;
+	}
+	.our-work .wrapper{
+		width: 360px;
+	}
+	.uslugi .our-work__list{
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		.our-work__item{
+			width: 300px;
+			height: 300px;
+			margin-bottom: 15px;
+		}
+	}
+	.uslugi-equipment .our-work__list{
+		width: 340px;
+	}
+	.uslugi-equipment .our-work__list .our-work__item{
+		width: 300px;
+		height: 300px;
+	}
+	.uslugi-paralax-title .paralax__content{
+		width: 330px;
+	}	
+	.uslugi .main-title{
+		margin-top: 0px;
+		margin-bottom: 30px;
+	}	
+	.uslugi .bold-text{
+		font-size: 20px;
+	}
+	.uslugi .main-title{
+		font-size: 30px;
+	}
+}
+
+// мех - 370 - 360 : 3
+@media screen and (max-width: 369px){
+	.str-meh .uslugi-table-block .wrapper{
+		width: 360px;
+	}
+}
+
+// кожа - 370 - 360 : 4
+@media screen and (max-width: 369px){
+	.str-koja .uslugi-table-block .wrapper{
+		width: 360px;
+	}
+}
+// замки  - 370 - 360 : 7
+@media screen and (max-width: 369px){
+	.str-zipper .uslugi-table-block .wrapper{
+		width: 360px;
+	}
+}
+
+// новые стр ЕЩЕ
+@media screen and (max-width: 369px){
+	.str-figure .how-to-take .wrapper{
+		width: 360px;
+	}
+	.paralax--image2 .paralax__center, .paralax--image2 .paralax__end, .paralax--image2 .paralax__start{
+		width: 100%;
+	}
+	.how-to-take{
+		padding-bottom: 50px;
+	}
+	.how-to-take .wrapper{
+		display: flex;
+		justify-content: center !important;
+	}
+	.str-figure .how-to-take__block{
+		width: 360px;
+		margin-right: 10px;
+		img{
+			width: 360px;
+			height: 240px;
+		}
+	}
+	.str-figure .how-to-take__block--4, .str-figure .how-to-take__block--5{
+		margin: 0;
+	}
+	.str-figure .btn--revievs{
+		margin-right: 15px;
+	}
+	.str-figure .uslugi-paralax-title .paralax__content{
+		width: 90%;
+	}
+	.divisions .h2-title{
+		font-size: 28px;
+	}
+	.str-figure{
+		overflow-x: hidden;
+	}
+	.main-menu__item a{
+		font-size: 12px;
+	}
+	.str-figure .uslugi-paralax-title .paralax__content{
+		height: unset;
+	}
+	.uslugi .main-title{
+		font-size: 24px;
+	}
+	.uslugi .bold-text{
+		font-size: 16px;
+		width: 100%;
+	}
+	.str-figure__price-paralax h6{
+		width: auto;
+		padding: 0;
+	}
+	.str-figure .how-to-take__block p{
+		width: unset;
+	}
+	.str-figure .table-block{
+		background-image: unset;
+	}
+	.str-figure__paralax h3{
+		font-size: 24px;
+		line-height: 24px;
+		margin-top: 40px;
+		margin-bottom: 10px;
+	}
+	.str-figure .how-to-take h2{
+		font-size: 26px;
+		line-height: 26px;
+	}
+}

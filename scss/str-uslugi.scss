@@ -1,0 +1,386 @@
+.uslugi{
+	position: relative;
+	&-paralax-title{
+		height: 580px;
+		&::after{
+			display: none;
+		}
+	}
+	&-paralax-title .paralax__content{
+		width: 700px;
+		max-height: 300px;
+		height: 300px;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		background-color: rgba(242, 242, 242, 0.7);
+		box-sizing: border-box;
+		padding: 15px;
+	}
+	&-paralax-title{
+		background-image: url('../img/uslugi-page/trikotag/title-bg.jpg');
+	}
+	.main-title{
+		margin-top: 75px;
+		margin-bottom: 40px;
+		font-size: 36px;
+		font-weight: 700;
+		color: rgb(69, 69, 69);
+	}
+	.bold-text{
+		font-size: 22px;
+		font-weight: 700;
+		line-height: 36px;
+		color: rgb(69, 69, 69);
+		width: 640px;
+		margin: 0 auto;
+	}
+	&-title{
+		.wrapper{
+		 display: flex;
+		 justify-content: space-between;
+		 flex-wrap: wrap;
+		}
+		h2{
+			margin-top: 20px;
+			margin-bottom: 35px;
+			width: 100%;
+	    color: #121212;		
+	    font-size: 30px;
+	    font-weight: 700;
+	    text-align: center;
+		}
+		ul{
+			width: 45%;
+			li{
+		    color: #121212;
+		    font-weight: 700;
+		    font-size: 16px;
+		    line-height: 24px;
+		    box-sizing: border-box;
+		    padding-top: 5px;
+		    padding-bottom: 5px;
+			}
+		}
+	}
+
+	&-gallery{
+		padding-bottom: 50px;
+		.wrapper{
+			justify-content: space-between;
+			display: flex;
+			flex-wrap: wrap;
+			h2{
+				margin-top: 50px;
+				margin-bottom: 50px;
+				width: 100%;
+		    color: #121212;		
+		    font-size: 30px;
+		    font-weight: 700;
+		    text-align: center;			
+			}
+		}
+	}
+	.our-work__list{
+		width: 58%;
+		.our-work__item{
+			width: 320px;
+			height: 320px;
+		}
+	}
+	&-gallery-text{
+		width: 30%;
+		color: rgb(26, 26, 26);
+		height: 330px;
+		display: block;
+		.wrapper{
+			display: flex;
+			align-items: flex-start;
+		}
+		h3{
+			font-size: 20px;
+			line-height: 26px;
+			font-weight: 700;
+			margin-top: 0;
+		}
+		span{
+			display: block;
+			width: 100%;
+			box-sizing: border-box;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			padding-left: 32px;
+			padding-right: 32px;
+			font-size: 16px;
+	    line-height: 24px;
+	    font-weight: 700;
+	    border: 1px solid #000;
+		}
+		p{
+	    font-size: 16px;
+	    line-height: 24px;
+	    font-weight: 300;
+	    width: 100%;
+		}
+	}
+	&-gallery--1{
+		background-color: #f2f2f2;
+	}
+	&-gallery--2{
+		background-color: #fff;
+		padding-top: 50px;
+	}
+	&-gallery--3{
+		padding-top: 50px;
+	}
+	&-gallery--4{
+		padding-top: 50px;
+		background-color: #fff;
+	}
+	&-paralax{
+		background-image: url('../img/uslugi-page/trikotag/paralax-list.jpg');
+		h2{
+			width: 100%;
+			text-align: center;
+			position: relative;
+			z-index: 10;
+	    color: #121212;
+	    font-size: 30px;
+	    font-weight: 700;
+		}
+		height: 450px;
+	}
+	&-paralax-price-title{
+		background-image: unset;
+		.h3-title{
+			margin-top: 60px;
+			margin-bottom: 20px;
+		}
+	}
+	&-table-block{
+		background-image: unset;
+		.wrapper{
+			width: 945px;
+		}
+	}
+	&-equipment{
+		box-sizing: border-box;
+		padding-top: 35px;
+		padding-bottom: 35px;
+		.wrapper{
+			width: 945px;
+			padding: 0;
+			// width: 305px;
+			// height: 305px;
+			img{
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+		.our-work__list{
+			width: 100%;
+			.our-work__item{
+				width: 305px;
+				height: 305px;
+			}
+		}
+		.h2-title{
+			margin-top: 10px;
+			font-size: 30px;
+			line-height: 36px;
+			font-weight: 700;
+		}
+		.text-for-title{
+	    font-size: 16px;
+		  line-height: 24px;
+	    font-weight: 300;
+	    text-align: center;
+		}
+	}
+	&-slider-block{
+		.slider__item--big{
+			display: flex;
+			height: 430px;
+			overflow-y: hidden;
+			position: relative;
+		}
+		.slider-data{
+			position: absolute;
+			bottom: 15px;
+			left: 10px;
+		}
+		h4{
+			line-height: 36px;
+		}
+		.slider__text-block--big{
+			display: flex;
+			box-sizing: border-box;
+			padding: 15px;
+			align-items: center;
+		}
+		p{
+			margin-bottom: 35px;
+		}
+		.slider-block__text{
+			display: flex;
+			justify-content: center;
+			align-items: flex-start;
+			h2{
+				margin: 0;
+				margin-bottom: 10px;
+			}
+			p{
+				margin: 0;
+				margin-bottom: 15px;
+			}
+		}
+	}
+	&-btn-wrapper{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 50px;
+		.btn{
+			width: 230px;
+		}
+	}
+	.our-work__list--6{
+		width: 58%;
+		.our-work__item{
+			width: 210px;
+			height: 210px;
+		}
+	}
+	.uslugi-gallery-text--6{
+		height: 460px;
+		width: 33%;
+	}
+	.our-work__list--4{
+		width: 58%;
+		.our-work__item{
+			width: 320px;
+			height: 320px;
+		}
+	}
+	.uslugi-gallery-text--4{
+		height: 660px;
+		width: 33%;	
+	}
+	.our-work__list{
+    width: 59%;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    padding: 10px;
+    box-shadow: 0 10px 10px rgba(0,0,2,.05);    
+	}
+	.uslugi-equipment .our-work__list{
+		width: 100%;
+	}
+}
+
+
+// jeans
+.str-jeans{
+	.uslugi-paralax-title{
+	background-image: url('../img/uslugi-page/jeans/title-bg.jpg');
+	}
+}
+
+// meh
+.str-meh{
+	.uslugi-paralax-title{
+		background-image: url('../img/uslugi-page/meh/title-bg.jpg');
+	}
+	.using-table-block{
+    background-image: url('../img/table-bg.jpg') !important;
+	}	
+	.uslugi-table-block .wrapper{
+		width: 1170px;
+	}
+	.uslugi-paralax{
+		background-image: url('../img/uslugi-page/meh/list-bg.jpg');
+	}
+	.uslugi-gallery--4{
+		background-color: #f2f2f2;
+	}
+}
+
+// koja
+.str-koja{
+	.uslugi-paralax-title{
+		background-image: url('../img/uslugi-page/koja/title-bg.jpg');
+	}
+	.main-title{
+		margin-top: 45px;
+	}
+	.uslugi-paralax{
+		background-image: url('../img/uslugi-page/koja/list-bg.jpg');
+	}
+	.uslugi-table-block .wrapper{
+		width: 1170px;
+	}	
+}
+
+// decor shtopla
+.str-decor-shtopka{
+	.uslugi-paralax-title{
+		background-image: url('../img/uslugi-page/decor-shtopka/title-bg.jpg');
+	}
+	.uslugi-paralax{
+		background-image: url('../img/uslugi-page/decor-shtopka/list-bg.jpg');
+	}	
+	.uslugi-slider-block .slider__item{
+		height: 340px;
+	}	
+}
+
+// deocr
+.str-decor{
+	.uslugi-paralax-title{
+		background-image: url('../img/uslugi-page/decor/title-bg.jpg');
+	}	
+	.uslugi-gallery--1{
+		background-color: #fff;
+	}
+	.uslugi-gallery--2{
+		background-color: #f2f2f2;
+	}
+	.uslugi-gallery--3{
+		background-color: #fff;
+	}
+	.uslugi-gallery--4{
+		padding-top: 50px;
+		background-color: #f2f2f2;
+	}	
+	.uslugi-gallery--5{
+		padding-top: 50px;
+		background-color: #fff;
+	}	
+	.uslugi-gallery--6{
+		padding-top: 50px;
+	}
+}
+
+// zipper
+.str-zipper{
+	.uslugi-paralax-title{
+		background-image: url('../img/uslugi-page/zipper/title-bg.jpg');
+	}
+	.uslugi-paralax{
+		background-image: url('../img/uslugi-page/zipper/paralax-list.jpg');
+	}	
+	.uslugi-title{
+		p{
+			width: 40%;
+	    font-size: 16px;
+	    line-height: 24px;
+	    font-weight: 300;			
+		}
+	}
+	.uslugi-table-block .wrapper{
+		width: 1170px;
+	}	
+}
