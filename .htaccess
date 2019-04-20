@@ -1,0 +1,15 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_URI} /index.html
+RewriteCond %{QUERY_STRING} ^\z
+RewriteRule ^(.*)$ https://atelieprofi.ru/? [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$
+RewriteRule ^(.*)$ https://%1/$1 [L,R=301]
+
+# Переадресация c http на https включена в настройках сервера
+#RewriteCond %{SERVER_PORT} !^443$
+#RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+
+# Редирект на страницу 404
+ErrorDocument 404 /404.php
