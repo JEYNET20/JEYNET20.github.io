@@ -1,0 +1,44 @@
+// основные стили интерфейса
+@import '_main.scss';
+
+// иконки
+@import '_icon.scss';
+
+// Шапка
+@import 'bloks/header.scss';
+
+// 1 блок для главной "map-block"
+@import 'bloks/map-block.scss';
+
+// блок офер
+@import 'bloks/offers.scss';
+
+// блок "popular-mark"
+@import 'bloks/popular-mark.scss';
+
+// Блок 'last-list'
+@import 'bloks/last-list.scss';
+
+// Блок "pre-footer-icon"
+@import 'bloks/pre-footer-icons.scss';
+
+// регистрация / авторизация
+@import '_autorisation.scss';
+
+// карта областей
+@import '_map-obl.scss';
+
+// О нас 
+@import '_about-us.scss';
+
+// 404
+@import '_404.scss';
+
+// попап окна
+@import '_popup.scss';
+
+// слайдер
+@import '_slider.scss';
+
+// Футер
+@import 'bloks/footer.scss';
