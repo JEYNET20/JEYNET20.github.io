@@ -33,6 +33,16 @@
 		margin-right: 5px;
 	}
 
+	.wrapper{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	.left-wrapper,
+	.right-wrapper{
+		width: 50%;
+	}
 
 	h1{
 		color: #2c2c2c;
@@ -47,13 +57,27 @@
 	}
 
 	h2{
-		color: #ffffff;
-		font-family: "Open Sans";
-		font-size: 64px;
-		font-weight: 700;
-		line-height: 68px;
-		letter-spacing: 0.64px;
-		margin: 0;
+		// color: #ffffff;
+		// font-family: "Open Sans";
+		// font-size: 64px;
+		// font-weight: 700;
+		// line-height: 68px;
+		// letter-spacing: 0.64px;
+		// margin: 0;
+		// box-sizing: border-box;
+		// padding-top: 90px;
+		// padding-bottom: 47px;
+	}
+	.text-for-h2{
+		// width: 364px;
+		// height: 154px;
+		// color: #ffffff;
+		// font-family: "Open Sans";
+		// font-size: 18px;
+		// font-weight: 400;
+		// line-height: 27px;
+		// letter-spacing: 0.18px;
+		// margin-bottom: 253px;
 	}
 
 	p{

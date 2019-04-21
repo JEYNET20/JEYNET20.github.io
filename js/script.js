@@ -248,15 +248,31 @@
 
 		mark.forEach(function(value){
 			value.classList.remove('d-none');
+			anime({
+			  targets: value,
+			  opacity: '1' ,
+			  easing: 'easeInQuad',
+			  duration: 400
+			});
+
 		})
 		setTimeout(function(){
 			mark.forEach(function(value){
-				value.classList.add('d-none');
+				anime({
+				  targets: value,
+				  opacity: '0' ,
+				  easing: 'easeOutQuad',
+				  duration: 400
+				});				
+				setTimeout(function(){
+					value.classList.add('d-none');
+				},400)
 			})
 		},1000);
 
 		markFixed.forEach(function(value){
 			value.classList.remove('d-none');
+	
 		})
 		setTimeout(function(){
 			markFixed.forEach(function(value){
@@ -356,6 +372,15 @@
 	let onBtnShowClick =  function(e){
 		e.preventDefault();
 		list.classList.remove('d-none');
+		let x = document.querySelector('.popular-mark__item--hidden');
+		x.classList.remove('d-none');
+		anime({
+		  targets: x,
+		  opacity: '1' ,
+		  easing: 'easeInQuad',
+		  duration: 400
+		});
+		this.parentNode.classList.add('d-none');
 		anime({
 		  targets: list,
 		  opacity: '1' ,
@@ -385,5 +410,4 @@
 	lastListBtn.forEach(function(v){
 		v.addEventListener('click', onLastListBtnClick);
 	});
-
 })();

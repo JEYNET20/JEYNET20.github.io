@@ -50,6 +50,10 @@ i {
   margin-bottom: 35px;
   display: flex;
   align-items: center; }
+  .title-wrapper a {
+    text-decoration: none;
+    color: #306c78;
+    transition: all 200ms ease; }
   .title-wrapper .h2-title {
     margin: 0;
     color: #306c78;
@@ -71,6 +75,10 @@ i {
     align-items: center;
     margin-top: 6px;
     margin-left: 12px; }
+
+.title-wrapper:hover a {
+  color: #ff4545;
+  transition: all 200ms ease; }
 
 .h4-title {
   opacity: 0.6;
@@ -614,7 +622,7 @@ input[type="password"]:focus {
   .header .nav--bar {
     position: absolute;
     width: 282px;
-    left: -45px;
+    left: -49px;
     margin-right: 0;
     top: 60px;
     z-index: 10; }
@@ -738,7 +746,7 @@ input[type="password"]:focus {
           letter-spacing: 0.16px;
           transition: all 100ms ease; }
         .header .profile-list ul li a:hover {
-          color: #306c78;
+          color: #ff4545;
           transition: all 100ms ease; }
     .header .profile-list__exit {
       cursor: pointer;
@@ -797,6 +805,15 @@ input[type="password"]:focus {
   margin-left: 51px;
   margin-right: 5px; }
 
+.services-str .wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.services-str .left-wrapper,
+.services-str .right-wrapper {
+  width: 50%; }
+
 .services-str h1 {
   color: #2c2c2c;
   font-family: "Open Sans";
@@ -807,15 +824,6 @@ input[type="password"]:focus {
   margin-top: 52px;
   margin-bottom: 31px;
   text-align: center; }
-
-.services-str h2 {
-  color: #ffffff;
-  font-family: "Open Sans";
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 68px;
-  letter-spacing: 0.64px;
-  margin: 0; }
 
 .services-str p {
   color: #ffffff;
